@@ -24,6 +24,11 @@
 > [!NOTE] No character is allowed except a line break.\
 > This is a note.
 
-> Whoa! This won't be shown.\
+> This also breaks the syntax here.\
+> [!NOTE]
+> This is a note.
+
+> This
+> 
 > [!NOTE]
 > This is a note.
