@@ -10,6 +10,9 @@
 > [!WARNING]
 > Critical content comes here.
 
+> [!NOTE]\
+> This is a note. (hard line break `\`)
+
 > [!NOTE]
 > This is a note.
 > multiple lines with a soft line break
