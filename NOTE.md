@@ -1,11 +1,17 @@
 # `[!NOTE]` test
 
-## Simple note
+## Simple alerts
 > [!NOTE]
 > This is a note.
 
+> [!TIP]
+> This is a tip.
+
 > [!IMPORTANT]
 > Crutial information comes here.
+
+> [!CAUTION]
+> Negative potential consequences of an action.
 
 > [!WARNING]
 > Critical content comes here.
