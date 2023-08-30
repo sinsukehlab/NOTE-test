@@ -49,45 +49,45 @@
 > [!NOTE]
 > This is a note.
 >> [!NOTE]
->> This is a note.
+>> This is a note (broken).
 
 > [!NOTE]
 > This is a note.
 >>
 >> [!NOTE]
->> This is a note.
+>> This is a note (broken).
 
 > [!NOTE]
 > This is a note.
 >>
 > [!NOTE]
-> This is a note.
+> This won't be shown.
 
 > [!NOTE]
 >
 >> [!NOTE]
->> This is a note.
+>> This is a note (broken).
 
 > [!NOTE]
 >>
 >> [!NOTE]
->> This is a note.
+>> This is a note (broken).
 
 > [!NOTE]
 >>
 > [!NOTE]
-> This is a note.
+> This won't be shown.
 
-> This is a quote.
+> This won't be shown.
 >> [!NOTE]
 >> This is a note.
 
-> This is a quote.
+> This won't be shown.
 >
 >> [!NOTE]
 >> This is a note.
 
-> This is a quote.
+> This won't be shown.
 >>
 >> [!NOTE]
 >> This is a note.
@@ -95,4 +95,4 @@
 > This is a quote.
 >>
 > [!NOTE]
-> This is a note.
+> This is a note (broken).
