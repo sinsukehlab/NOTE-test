@@ -123,11 +123,11 @@
 1. This is an ordered list.
    > [!NOTE]
    > This is a note.
-
+<br>
 
 1. > [!NOTE]
    > This is a note.
-
+<br>
 
 1. This is an ordered list.
 1. > [!NOTE]
