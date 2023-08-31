@@ -124,8 +124,10 @@
    > [!NOTE]
    > This is a note.
 
+
 1. > [!NOTE]
    > This is a note.
+
 
 1. This is an ordered list.
 1. > [!NOTE]
