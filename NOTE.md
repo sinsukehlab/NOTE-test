@@ -96,3 +96,37 @@
 >>
 > [!NOTE]
 > This is a note (broken).
+
+## list
+
+- This is a bullet list with `-`.
+  > [!NOTE]
+  > This is a note.
+
+- > [!NOTE]
+  > This is a note.
+
++ This is a bullet list with `+`.
+  > [!NOTE]
+  > This is a note.
+
++ > [!NOTE]
+  > This is a note.
+
+* This is a bullet list with `*`.
+  > [!NOTE]
+  > This is a note.
+
+* > [!NOTE]
+  > This is a note.
+
+1. This is an ordered list.
+   > [!NOTE]
+   > This is a note.
+
+1. > [!NOTE]
+   > This is a note.
+
+1. This is an ordered list.
+1. > [!NOTE]
+   > This is a note.
