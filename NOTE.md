@@ -132,3 +132,27 @@
 1. This is an ordered list.
 1. > [!NOTE]
    > This is a note.
+
+- [ ] This is a task list.
+      > [!NOTE]
+      > This is a note.
+
+- [x] This is a task list with a checked task.
+      > [!NOTE]
+      > This is a note.
+
++ [ ] This is a task list.
+      > [!NOTE]
+      > This is a note.
+
++ [x] This is a task list with a checked task.
+      > [!NOTE]
+      > This is a note.
+
+* [ ] This is a task list.
+      > [!NOTE]
+      > This is a note.
+
+* [x] This is a task list with a checked task.
+      > [!NOTE]
+      > This is a note.
