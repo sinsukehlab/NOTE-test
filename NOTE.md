@@ -121,6 +121,16 @@
 * > [!NOTE]
   > This is a note.
 
+- This is a bullet list with `-`.
+  > [!NOTE]
+  > This is a note.
+  + subitem with `+`
+    > [!NOTE]
+    > This is a note.
+    * subitem with `*`
+      > [!NOTE]
+      > This is a note.
+
 1. This is an ordered list.
    > [!NOTE]
    > This is a note.
@@ -166,3 +176,78 @@
 1. [x] This is a task list with a checked task. The number `1. ` won't be shown.
    > [!NOTE]
    > This is a note.
+
+### lists in alerts
+> [!NOTE]
+> This is a note.
+> - This is a bullet list with `-`.
+
+> [!NOTE]
+> - This is a bullet list with `-` directly in an alert.
+
+- This is a bullet list with `-`.
+  > [!NOTE]
+  > This is a note.
+  > - This is a bullet list with `-`.
+
+- This is a bullet list with `-`.
+  > [!NOTE]
+  > - This is a bullet list with `-` directly in an alert.
+
+- > [!NOTE]
+  > This is a note.
+  > - This is a bullet list with `-`.
+
+- > [!NOTE]
+  > - This is a bullet list with `-` directly in an alert.
+
+> [!NOTE]
+> This is a note.
+> + This is a bullet list with `+`.
+
+> [!NOTE]
+> + This is a bullet list with `+` directly in an alert.
+
++ This is a bullet list with `+`.
+  > [!NOTE]
+  > This is a note.
+  > + This is a bullet list with `+`.
+
++ This is a bullet list with `+`.
+  > [!NOTE]
+  > + This is a bullet list with `+` directly in an alert.
+
++ > [!NOTE]
+  > This is a note.
+  > + This is a bullet list with `+`.
+
++ > [!NOTE]
+  > + This is a bullet list with `+` directly in an alert.
+
+> [!NOTE]
+> This is a note.
+> * This is a bullet list with `*`.
+
+> [!NOTE]
+> * This is a bullet list with `*` directly in an alert.
+
+* This is a bullet list with `*`.
+  > [!NOTE]
+  > This is a note.
+  > * This is a bullet list with `*`.
+
+* This is a bullet list with `*`.
+  > [!NOTE]
+  > * This is a bullet list with `*` directly in an alert.
+
+* > [!NOTE]
+  > This is a note.
+  > * This is a bullet list with `*`.
+
+* > [!NOTE]
+  > * This is a bullet list with `*` directly in an alert.
+
+- > [!NOTE]
+  > + This is a bullet list with `+` directly in an alert.
+  >   * subitem with `*`
+
