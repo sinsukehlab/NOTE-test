@@ -143,6 +143,17 @@
 1. This is an ordered list.
 1. > [!NOTE]
    > This is a note.
+<br>
+
+1. This is an ordered list.
+   > [!NOTE]
+   > This is a note.
+   1. This is an ordered list.
+      > [!NOTE]
+      > This is a note.
+      1. This is an ordered list.
+         > [!NOTE]
+         > This is a note.
 
 - [ ] This is a task list (`-`).
   > [!NOTE]
@@ -176,6 +187,13 @@
 1. [x] This is a task list with a checked task. The number `1. ` won't be shown.
    > [!NOTE]
    > This is a note.
+
+- [ ] This is a task list.
+  > [!NOTE]
+  > This is a note.
+  - [x] This is a task list.
+    > [!NOTE]
+    > This is a note.
 
 ### lists in alerts
 > [!NOTE]
