@@ -99,6 +99,7 @@
 
 ## list
 
+### alerts in lists
 - This is a bullet list with `-`.
   > [!NOTE]
   > This is a note.
@@ -133,26 +134,35 @@
 1. > [!NOTE]
    > This is a note.
 
-- [ ] This is a task list.
+- [ ] This is a task list (`-`).
   > [!NOTE]
   > This is a note.
 
-- [x] This is a task list with a checked task.
+- [x] This is a task list with a checked task (`-`).
   > [!NOTE]
   > This is a note.
 
-+ [ ] This is a task list.
++ [ ] This is a task list (`+`).
   > [!NOTE]
   > This is a note.
 
-+ [x] This is a task list with a checked task.
++ [x] This is a task list with a checked task (`+`).
   > [!NOTE]
   > This is a note.
 
-* [ ] This is a task list.
+* [ ] This is a task list (`*`).
   > [!NOTE]
   > This is a note.
 
-* [x] This is a task list with a checked task.
+* [x] This is a task list with a checked task (`*`).
   > [!NOTE]
   > This is a note.
+
+1. [ ] This is a task list. The number `1. ` won't be shown.
+   > [!NOTE]
+   > This is a note.
+<br>
+
+1. [x] This is a task list with a checked task. The number `1. ` won't be shown.
+   > [!NOTE]
+   > This is a note.
