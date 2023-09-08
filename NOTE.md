@@ -154,6 +154,7 @@
       1. This is an ordered list.
          > [!NOTE]
          > This is a note.
+<br>
 
 - [ ] This is a task list (`-`).
   > [!NOTE]
@@ -281,3 +282,41 @@
       > [!NOTE]
       > - This is a bullet list with `-` directly in an alert.
       >   + subitem with `+`
+
+> [!NOTE]
+> This is a note.
+> 1. This is an ordered list.
+
+> [!NOTE]
+> 1. This is an ordered list directly in an alert.
+
+1. This is an ordered list.
+   > [!NOTE]
+   > This is a note.
+   > 1. This is an ordered list.
+<br>
+
+1. This is an ordered list.
+   > [!NOTE]
+   > 1. This is an ordered list directly in an alert.
+<br>
+
+1. > [!NOTE]
+   > This is a note.
+   > 1. This is an ordered list.
+<br>
+
+1. > [!NOTE]
+   > 1. This is an ordered list directly in an alert.
+<br>
+
+1. This is an ordered list.
+   > [!NOTE]
+   > 1. This is an ordered list directly in an alert.
+   1. This is an ordered list.
+      > [!NOTE]
+      > 1. This is an ordered list directly in an alert.
+      1. This is an ordered list.
+         > [!NOTE]
+         > 1. This is an ordered list directly in an alert.
+<br>
