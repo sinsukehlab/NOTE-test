@@ -340,8 +340,8 @@
 > + [x] This is a task list with a checked task (`+`).
 > * [ ] This is a task list (`*`).
 > * [x] This is a task list with a checked task (`*`).
-> 1. [ ] This is a task list. The number `1. ` won't be shown.
-> 1. [x] This is a task list with a checked task. The number `1. ` won't be shown.
+> 1. [ ] This is a task list.
+> 1. [x] This is a task list with a checked task.
 
 > [!NOTE]
 > - [ ] This is a task list directly in an alert.
