@@ -290,6 +290,11 @@
 > [!NOTE]
 > 1. This is an ordered list directly in an alert.
 
+> [!NOTE]
+> 1. This is an ordered list directly in an alert.
+>    1. subitem
+>       1. subitem
+
 1. This is an ordered list.
    > [!NOTE]
    > This is a note.
