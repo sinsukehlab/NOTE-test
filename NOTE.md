@@ -269,3 +269,15 @@
   > + This is a bullet list with `+` directly in an alert.
   >   * subitem with `*`
 
+- This is a bullet list with `-`.
+  > [!NOTE]
+  > + This is a bullet list with `+` directly in an alert.
+  >   * subitem with `*`
+  + subitem with `+`
+    > [!NOTE]
+    > * This is a bullet list with `*` directly in an alert.
+    >   - subitem with `-`
+    * subitem with `*`
+      > [!NOTE]
+      > - This is a bullet list with `-` directly in an alert.
+      >   + subitem with `+`
