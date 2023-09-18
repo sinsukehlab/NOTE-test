@@ -33,17 +33,22 @@
 > [!NOTE] No character is allowed except a line break.\
 > This is a note.
 
-> This also breaks the syntax here (different from comments).\
+> This also breaks the syntax.\
 > [!NOTE]
 > This is a note.
 
-> This also breaks the syntax here.
+> This also breaks the syntax.
 > 
 > [!NOTE]
 > This is a note.
 
 > [!NOTE]
 > 
+
+> [!NOTE]<br>This is a one-liner note.
+
+> [!NOTE]<br>
+> This is a note.
 
 ## nested alerts
 > [!NOTE]
