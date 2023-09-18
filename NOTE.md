@@ -406,3 +406,16 @@ fn main () {
 >   println!("Hello, World!");
 > }
 > ```
+
+## table
+> [!NOTE]
+> | Header 1 | Header 2 |
+> | --- | --- |
+> | a | b |
+> | c | d |
+
+> [!NOTE]
+> | Left-aligned | Center-aligned | Right-aligned |
+> | :--- | :---: | ---: |
+> | abc | abc | abc |
+> | 1234 | 1234 | 1234 |
