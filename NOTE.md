@@ -413,6 +413,8 @@ fn main () {
     > - [x] This is a task list directly in an alert.
 
 ## table
+
+### tables in alerts
 > [!NOTE]
 > | Header 1 | Header 2 |
 > | --- | --- |
@@ -424,3 +426,38 @@ fn main () {
 > | :--- | :---: | ---: |
 > | abc | abc | abc |
 > | 1234 | 1234 | 1234 |
+
+### alerts in tables
+
+| NOTE | IMPORTANT | WARNING |
+| --- | --- | --- |
+| > [!NOTE]<br>This is a note. | > [!IMPORTANT]<br>This is important. | > [!WARNING]<br>This is a warning. |
+| > [!NOTE]<br>This is a note.<br>second line | > [!IMPORTANT]<br>This is important.<br>second line | > [!WARNING]<br>This is a warning.<br>second line |
+
+| Header | > [!NOTE]<br>This is a note. |
+| --- | --- |
+| Content | NOTE |
+
+| Left-aligned | Center-aligned | Right-aligned |
+| :--- | :---: | ---: |
+| > [!NOTE]<br>This is a note. | > [!NOTE]<br>This is a note. | > [!NOTE]<br>This is a note. |
+| > [!IMPORTANT]<br>This is important. | > [!IMPORTANT]<br>This is important. | > [!IMPORTANT]<br>This is important. |
+| > [!WARNING]<br>This is a warning. | > [!WARNING]<br>This is a warning. | > [!WARNING]<br>This is a warning. |
+
+> [!NOTE]
+> | NOTE | IMPORTANT | WARNING |
+> | --- | --- | --- |
+> | > [!NOTE]<br>This is a note. | > [!IMPORTANT]<br>This is important. | > [!WARNING]<br>This is a warning. |
+> | > [!NOTE]<br>This is a note.<br>second line | > [!IMPORTANT]<br>This is important.<br>second line | > [!WARNING]<br>This is a warning.<br>second line |
+
+> [!IMPORTANT]
+> | Header | > [!NOTE]<br>This is a note. |
+> | --- | --- |
+> | Content | NOTE |
+
+> [!WARNING]
+> | Left-aligned | Center-aligned | Right-aligned |
+> | :--- | :---: | ---: |
+> | > [!NOTE]<br>This is a note. | > [!NOTE]<br>This is a note. | > [!NOTE]<br>This is a note. |
+> | > [!IMPORTANT]<br>This is important. | > [!IMPORTANT]<br>This is important. | > [!IMPORTANT]<br>This is important. |
+> | > [!WARNING]<br>This is a warning. | > [!WARNING]<br>This is a warning. | > [!WARNING]<br>This is a warning. |
