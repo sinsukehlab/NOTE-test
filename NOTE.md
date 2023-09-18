@@ -102,6 +102,51 @@
 > [!NOTE]
 > This is a note (broken).
 
+## code block
+simple code block
+```
+fn main () {
+  println!("Hello, World!");
+}
+```
+
+code block with syntax highlighting
+```rust
+fn main () {
+  println!("Hello, World!");
+}
+```
+
+> [!NOTE]
+> This is a note.
+> ```
+> fn main() {
+>   println!("Hello, World!");
+> }
+> ```
+
+> [!NOTE]
+> ```
+> fn main() {
+>   println!("Hello, World!");
+> }
+> ```
+
+> [!NOTE]
+> This is a note.
+> ```rust
+> fn main() {
+>   println!("Hello, World!");
+> }
+> ```
+
+> [!NOTE]
+> ```rust
+> fn main() {
+>   println!("Hello, World!");
+> }
+> ```
+
 ## list
 
 ### alerts in lists
@@ -366,51 +411,6 @@
   - [x] This is a task list.
     > [!NOTE]
     > - [x] This is a task list directly in an alert.
-
-## code block
-simple code block
-```
-fn main () {
-  println!("Hello, World!");
-}
-```
-
-code block with syntax highlighting
-```rust
-fn main () {
-  println!("Hello, World!");
-}
-```
-
-> [!NOTE]
-> This is a note.
-> ```
-> fn main() {
->   println!("Hello, World!");
-> }
-> ```
-
-> [!NOTE]
-> ```
-> fn main() {
->   println!("Hello, World!");
-> }
-> ```
-
-> [!NOTE]
-> This is a note.
-> ```rust
-> fn main() {
->   println!("Hello, World!");
-> }
-> ```
-
-> [!NOTE]
-> ```rust
-> fn main() {
->   println!("Hello, World!");
-> }
-> ```
 
 ## table
 > [!NOTE]
