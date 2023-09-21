@@ -61,7 +61,7 @@
 >> [!NOTE]<br>This is a one-liner note (broken).
 
 > [!NOTE]<br>This is a one-liner note.
->> [!NOTE]<br>This is a one-liner note.
+>> [!NOTE]<br>This is a one-liner note (broken).
 
 > [!NOTE]
 > This is a note.
