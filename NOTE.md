@@ -154,22 +154,37 @@ fn main () {
   > [!NOTE]
   > This is a note.
 
+- This is a bullet list with `-`.
+  > [!NOTE]<br>This is a one-liner note.
+
 - > [!NOTE]
   > This is a note.
+
+- > [!NOTE]<br>This is a one-liner note.
 
 + This is a bullet list with `+`.
   > [!NOTE]
   > This is a note.
 
++ This is a bullet list with `+`.
+  > [!NOTE]<br>This is a one-liner note.
+
 + > [!NOTE]
   > This is a note.
+
++ > [!NOTE]<br>This is a one-liner note.
 
 * This is a bullet list with `*`.
   > [!NOTE]
   > This is a note.
 
+* This is a bullet list with `*`.
+  > [!NOTE]<br>This is a one-liner note.
+
 * > [!NOTE]
   > This is a note.
+
+* > [!NOTE]<br>This is a one-liner note.
 
 - This is a bullet list with `-`.
   > [!NOTE]
@@ -186,6 +201,10 @@ fn main () {
    > This is a note.
 <br>
 
+1. This is an ordered list.
+   > [!NOTE]<br>This is a one-liner note.
+<br>
+
 1. > [!NOTE]
    > This is a note.
 <br>
@@ -193,6 +212,9 @@ fn main () {
 1. This is an ordered list.
 1. > [!NOTE]
    > This is a note.
+<br>
+
+1. > [!NOTE]<br>This is a one-liner note.
 <br>
 
 1. This is an ordered list.
@@ -214,6 +236,12 @@ fn main () {
   > [!NOTE]
   > This is a note.
 
+- [ ] This is a task list (`-`).
+  > [!NOTE]<br>This is a one-liner note.
+
+- [x] This is a task list with a checked task (`-`).
+  > [!NOTE]<br>This is a one-liner note.
+
 + [ ] This is a task list (`+`).
   > [!NOTE]
   > This is a note.
@@ -221,6 +249,12 @@ fn main () {
 + [x] This is a task list with a checked task (`+`).
   > [!NOTE]
   > This is a note.
+
++ [ ] This is a task list (`+`).
+  > [!NOTE]<br>This is a one-liner note.
+
++ [x] This is a task list with a checked task (`+`).
+  > [!NOTE]<br>This is a one-liner note.
 
 * [ ] This is a task list (`*`).
   > [!NOTE]
@@ -230,6 +264,12 @@ fn main () {
   > [!NOTE]
   > This is a note.
 
+* [ ] This is a task list (`*`).
+  > [!NOTE]<br>This is a one-liner note.
+
+* [x] This is a task list with a checked task (`*`).
+  > [!NOTE]<br>This is a one-liner note.
+
 1. [ ] This is a task list. The number `1. ` won't be shown.
    > [!NOTE]
    > This is a note.
@@ -238,6 +278,15 @@ fn main () {
 1. [x] This is a task list with a checked task. The number `1. ` won't be shown.
    > [!NOTE]
    > This is a note.
+<br>
+
+1. [ ] This is a task list. The number `1. ` won't be shown.
+   > [!NOTE]<br>This is a one-liner note.
+<br>
+
+1. [x] This is a task list with a checked task. The number `1. ` won't be shown.
+   > [!NOTE]<br>This is a one-liner note.
+<br>
 
 - [ ] This is a task list.
   > [!NOTE]
@@ -427,7 +476,7 @@ fn main () {
 > | abc | abc | abc |
 > | 1234 | 1234 | 1234 |
 
-### alerts in tables
+### alerts in tables (not supported)
 
 | NOTE | IMPORTANT | WARNING |
 | --- | --- | --- |
