@@ -58,9 +58,21 @@
 
 > [!NOTE]
 > This is a note.
+>> [!NOTE]<br>This is a one-liner note (broken).
+
+> [!NOTE]<br>This is a one-liner note.
+>> [!NOTE]<br>This is a one-liner note.
+
+> [!NOTE]
+> This is a note.
 >>
 >> [!NOTE]
 >> This is a note (broken).
+
+> [!NOTE]
+> This is a note.
+>>
+>> [!NOTE]<br>This is a one-liner note (broken).
 
 > [!NOTE]
 > This is a note.
@@ -69,23 +81,52 @@
 > This won't be shown.
 
 > [!NOTE]
+> This is a note.
+>>
+> [!NOTE]<br>This won't be shown.
+
+> [!NOTE]<br>This is a one-liner note.
+>>
+> [!NOTE]
+> This won't be shown.
+
+> [!NOTE]<br>This is a one-liner note.
+>>
+> [!NOTE]<br>This won't be shown.
+
+> [!NOTE]
 >
 >> [!NOTE]
 >> This is a note (broken).
 
 > [!NOTE]
+>
+>> [!NOTE]<br>This is a one-liner note (broken).
+
+> [!NOTE]
 >>
 >> [!NOTE]
 >> This is a note (broken).
 
 > [!NOTE]
 >>
+>> [!NOTE]<br>This is a one-liner note (broken).
+
+> [!NOTE]
+>>
 > [!NOTE]
 > This won't be shown.
+
+> [!NOTE]
+>>
+> [!NOTE]<br>This won't be shown.
 
 > This won't be shown.
 >> [!NOTE]
 >> This is a note.
+
+> This won't be shown.
+>> [!NOTE]<br>This is a one-liner note.
 
 > This won't be shown.
 >
@@ -93,14 +134,26 @@
 >> This is a note.
 
 > This won't be shown.
+>
+>> [!NOTE]<br>This is a one-liner note.
+
+> This won't be shown.
 >>
 >> [!NOTE]
 >> This is a note.
+
+> This won't be shown.
+>>
+>> [!NOTE]<br>This is a one-liner note.
 
 > This is a quote.
 >>
 > [!NOTE]
 > This is a note (broken).
+
+> This is a quote.
+>>
+> [!NOTE]<br>This is a one-liner note (broken).
 
 ## code block
 simple code block
