@@ -178,6 +178,13 @@
 >> This is indented (`>>`).
 
 > [!NOTE]
+>> This is indented (`>>`).
+>>> This is indented (`>>>`).
+
+> [!NOTE]
+>>> This is indented (`>>>`).
+
+> [!NOTE]
 > This is a note.
 > > This is a quote.
 
