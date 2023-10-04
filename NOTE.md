@@ -184,6 +184,10 @@
 > [!NOTE]
 > > This is a quote.
 
+> This won't be shown.
+>> [!NOTE]
+>>> This is indented (`>>>`).
+
 ## code block
 simple code block
 ```
