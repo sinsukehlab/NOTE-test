@@ -195,6 +195,16 @@
 >> [!NOTE]
 >>> This is indented (`>>>`).
 
+## thematic break
+> [!NOTE]
+> This is a note (broken).
+> ---
+
+> [!NOTE]
+> This is a note.
+> 
+> ---
+
 ## code block
 simple indented code block
 
