@@ -33,15 +33,6 @@
 > [!NOTE] No character is allowed except a line break.\
 > This is a note.
 
-> This also breaks the syntax.\
-> [!NOTE]
-> This is a note.
-
-> This also breaks the syntax.
-> 
-> [!NOTE]
-> This is a note.
-
 > [!NOTE]
 > 
 
@@ -121,6 +112,29 @@
 >>
 > [!NOTE]<br>This won't be shown.
 
+## block quote
+
+### alerts in quotes
+> This breaks the syntax.
+> [!NOTE]
+> This is a note.
+
+> This breaks the syntax.\
+> [!NOTE]
+> This is a note.
+
+> This breaks the syntax.<br>
+> [!NOTE]
+> This is a note.
+
+> This breaks the syntax.
+> 
+> [!NOTE]
+> This is a note.
+
+> This breaks the syntax.
+> [!NOTE]<br>This is a one-liner note.
+
 > This won't be shown.
 >> [!NOTE]
 >> This is a note.
@@ -154,6 +168,21 @@
 > This is a quote.
 >>
 > [!NOTE]<br>This is a one-liner note (broken).
+
+### quotes in alerts
+> [!NOTE]
+> This is a note.
+>> This is indented (`>>`).
+
+> [!NOTE]
+>> This is indented (`>>`).
+
+> [!NOTE]
+> This is a note.
+> > This is a quote.
+
+> [!NOTE]
+> > This is a quote.
 
 ## code block
 simple code block
