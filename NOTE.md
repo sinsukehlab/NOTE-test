@@ -196,19 +196,41 @@
 >>> This is indented (`>>>`).
 
 ## code block
-simple code block
+simple indented code block
+
+    fn main () {
+      println!("Hello, World!");
+    }
+
+
+simple fenced code block
 ```
 fn main () {
   println!("Hello, World!");
 }
 ```
 
-code block with syntax highlighting
+fenced code block with syntax highlighting
 ```rust
 fn main () {
   println!("Hello, World!");
 }
 ```
+
+> [!NOTE]
+> This is a note.
+> 
+>     fn main () {
+>       println!("Hello, World!");
+>     }
+> 
+
+> [!NOTE]
+> 
+>     fn main () {
+>       println!("Hello, World!");
+>     }
+> 
 
 > [!NOTE]
 > This is a note.
