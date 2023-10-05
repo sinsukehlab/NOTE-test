@@ -235,6 +235,74 @@
 > 
 > ---
 
+> [!NOTE]
+> This is a note (not broken).
+> ___
+
+> [!NOTE]
+> This is a note.
+> 
+> ___
+
+> [!NOTE]
+> This is a note.
+> ___
+> after the break
+
+> [!NOTE]
+> This is a note.
+> 
+> ___
+> after the break
+
+> [!NOTE]
+> ___
+
+> [!NOTE]
+> 
+> ___
+
+> [!NOTE]<br>This is a note using `<br>` (not broken).
+> ___
+
+> [!NOTE]<br>This is a note using `<br>`.
+> 
+> ___
+
+> [!NOTE]
+> This is a note (not broken).
+> ***
+
+> [!NOTE]
+> This is a note.
+> 
+> ***
+
+> [!NOTE]
+> This is a note.
+> ***
+> after the break
+
+> [!NOTE]
+> This is a note.
+> 
+> ***
+> after the break
+
+> [!NOTE]
+> ***
+
+> [!NOTE]
+> 
+> ***
+
+> [!NOTE]<br>This is a note using `<br>` (not broken).
+> ***
+
+> [!NOTE]<br>This is a note using `<br>`.
+> 
+> ***
+
 > [!NOTE]<br>This is a one-liner note using `<br>`.<hr />after the break
 
 > [!NOTE]<br><hr />
