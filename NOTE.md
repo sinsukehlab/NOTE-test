@@ -205,6 +205,30 @@
 > 
 > ---
 
+> [!NOTE]
+> This is a note.
+> 
+> ---
+> after the break
+
+> [!NOTE]
+> ---
+
+> [!NOTE]
+> 
+> ---
+
+> [!NOTE]<br>This is a note using `<br>` (broken).
+> ---
+
+> [!NOTE]<br>This is a note using `<br>`.
+> 
+> ---
+
+> [!NOTE]<br>This is a one-liner note using `<br>`.<hr />after the break
+
+> [!NOTE]<br><hr />
+
 ## code block
 simple indented code block
 
