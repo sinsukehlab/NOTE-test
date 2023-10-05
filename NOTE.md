@@ -195,10 +195,20 @@
 >> [!NOTE]
 >>> This is indented (`>>>`).
 
-## thematic break
+## thematic break and setext heading
 > [!NOTE]
 > This is a note (broken).
 > ---
+
+> [!NOTE]
+> 
+> This is `<h2>` text.
+> ---
+
+> [!NOTE]
+> 
+> This is `<h1>` text.
+> ===
 
 > [!NOTE]
 > This is a note.
