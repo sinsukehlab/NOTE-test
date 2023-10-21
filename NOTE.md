@@ -39,6 +39,8 @@
 > [!NOTE]<br>This is a one-liner note.
 
 > [!NOTE]<br>
+
+> [!NOTE]<br>
 > This is a note.
 
 ## nested alerts
