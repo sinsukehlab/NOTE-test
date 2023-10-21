@@ -71,21 +71,21 @@
 > This is a note.
 >>
 > [!NOTE]
-> This won't be shown.
+> This is a note (broken).
 
 > [!NOTE]
 > This is a note.
 >>
-> [!NOTE]<br>This won't be shown.
+> [!NOTE]<br>This is a one-liner note (broken).
 
 > [!NOTE]<br>This is a one-liner note.
 >>
 > [!NOTE]
-> This won't be shown.
+> This is a note (broken).
 
 > [!NOTE]<br>This is a one-liner note.
 >>
-> [!NOTE]<br>This won't be shown.
+> [!NOTE]<br>This is a one-liner note (broken).
 
 > [!NOTE]
 >
@@ -108,11 +108,11 @@
 > [!NOTE]
 >>
 > [!NOTE]
-> This won't be shown.
+> This is a note (broken).
 
 > [!NOTE]
 >>
-> [!NOTE]<br>This won't be shown.
+> [!NOTE]<br>This is a one-liner note (broken).
 
 ## block quote
 
@@ -137,28 +137,28 @@
 > This breaks the syntax.
 > [!NOTE]<br>This is a one-liner note.
 
-> This won't be shown.
+> This breaks the syntax.
 >> [!NOTE]
 >> This is a note.
 
-> This won't be shown.
+> This breaks the syntax.
 >> [!NOTE]<br>This is a one-liner note.
 
-> This won't be shown.
+> This breaks the syntax.
 >
 >> [!NOTE]
 >> This is a note.
 
-> This won't be shown.
+> This breaks the syntax.
 >
 >> [!NOTE]<br>This is a one-liner note.
 
-> This won't be shown.
+> This breaks the syntax.
 >>
 >> [!NOTE]
 >> This is a note.
 
-> This won't be shown.
+> This breaks the syntax.
 >>
 >> [!NOTE]<br>This is a one-liner note.
 
@@ -193,9 +193,9 @@
 > [!NOTE]
 > > This is a quote.
 
-> This won't be shown.
+> This is a quote.
 >> [!NOTE]
->>> This is indented (`>>>`).
+>>> This is indented (`>>>`) (broken).
 
 ## thematic break and setext heading
 > [!NOTE]
