@@ -130,35 +130,35 @@
 > This is a note.
 
 > This breaks the syntax.
-> 
+>
 > [!NOTE]
 > This is a note.
 
 > This breaks the syntax.
 > [!NOTE]<br>This is a one-liner note.
 
-> This breaks the syntax.
+> This is a quote.
 >> [!NOTE]
 >> This is a note.
 
-> This breaks the syntax.
+> This is a quote.
 >> [!NOTE]<br>This is a one-liner note.
 
-> This breaks the syntax.
+> This is a quote.
 >
 >> [!NOTE]
 >> This is a note.
 
-> This breaks the syntax.
+> This is a quote.
 >
 >> [!NOTE]<br>This is a one-liner note.
 
-> This breaks the syntax.
+> This is a quote.
 >>
 >> [!NOTE]
 >> This is a note.
 
-> This breaks the syntax.
+> This is a quote.
 >>
 >> [!NOTE]<br>This is a one-liner note.
 
@@ -169,6 +169,40 @@
 
 > This is a quote.
 >>
+> [!NOTE]<br>This is a one-liner note (broken).
+
+> This is a quote.
+> > [!NOTE]
+> > This is a note.
+
+> This is a quote.
+> > [!NOTE]<br>This is a one-liner note.
+
+> This is a quote.
+>
+> > [!NOTE]
+> > This is a note.
+
+> This is a quote.
+>
+> > [!NOTE]<br>This is a one-liner note.
+
+> This is a quote.
+> >
+> > [!NOTE]
+> > This is a note.
+
+> This is a quote.
+> >
+> > [!NOTE]<br>This is a one-liner note.
+
+> This is a quote.
+> >
+> [!NOTE]
+> This is a note (broken).
+
+> This is a quote.
+> >
 > [!NOTE]<br>This is a one-liner note (broken).
 
 ### quotes in alerts
@@ -193,9 +227,17 @@
 > [!NOTE]
 > > This is a quote.
 
+> [!NOTE]
+> > This is a quote.
+> > > This is a quote (`> > > `).
+
 > This is a quote.
 >> [!NOTE]
->>> This is indented (`>>>`) (broken).
+>>> This is indented (`>>>`).
+
+> This is a quote.
+> > [!NOTE]
+> > > This is a quote (`> > > `).
 
 ## thematic break and setext heading
 > [!NOTE]
