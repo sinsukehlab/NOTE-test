@@ -40,6 +40,8 @@
 
 > [!NOTE]<br>
 
+> [!NOTE]<br><br>
+
 > [!NOTE]<br>
 > This is a note.
 
@@ -229,6 +231,9 @@
 
 > [!NOTE]
 > > This is a quote.
+> > > This is a quote (`> > > `).
+
+> [!NOTE]
 > > > This is a quote (`> > > `).
 
 > This is a quote.
