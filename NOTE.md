@@ -5,13 +5,13 @@
 > This is a note.
 
 > [!TIP]
-> This is a tip.
+> This is a tip. (Supported since 14 Nov 2023)
 
 > [!IMPORTANT]
 > Crutial information comes here.
 
 > [!CAUTION]
-> Negative potential consequences of an action.
+> Negative potential consequences of an action. (Supported since 14 Nov 2023)
 
 > [!WARNING]
 > Critical content comes here.
@@ -38,6 +38,7 @@
 
 > [!NOTE]<br>This is a one-liner note.
 
+Broken since 14 Nov 2023
 > [!NOTE]<br>
 
 > [!NOTE]<br><br>
@@ -118,7 +119,7 @@
 
 ## block quote
 
-### alerts in quotes
+### alerts in quotes (broken since 14 Nov 2023)
 > This breaks the syntax.
 > [!NOTE]
 > This is a note.
@@ -425,7 +426,7 @@ fn main () {
 
 ## list
 
-### alerts in lists
+### alerts in lists (broken since 14 Nov 2023)
 - This is a bullet list with `-`.
   > [!NOTE]
   > This is a note.
