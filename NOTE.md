@@ -453,7 +453,7 @@ fn main () {
 
 > [!NOTE]
 > This is a note.<br>
-> $$
+> $$\LaTeX$$
 
 > [!NOTE]
 > $$\LaTeX$$
@@ -465,13 +465,13 @@ fn main () {
 
 > [!NOTE]<br>$\LaTeX$
 
-> [!NOTE]<br>Here is $\LaTeX$
+> [!NOTE]<br>Here is $\LaTeX$.
 
 > [!NOTE]<br>This is a note.<br>$$\LaTeX$$
 
 > [!NOTE]<br>$$\LaTeX$$
 
-> [!NOTE]<br>Here is $$\LaTeX$$
+> [!NOTE]<br>Here is $$\LaTeX$$.
 
 ## list
 
