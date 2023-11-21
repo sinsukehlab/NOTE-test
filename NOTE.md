@@ -424,6 +424,28 @@ fn main () {
 > }
 > ```
 
+## MathJax (directly supported since 14 Nov 2023)
+> [!NOTE]
+> This is a note.
+> $\LaTeX$
+
+> [!NOTE]
+> $\LaTeX$
+
+> [!NOTE]
+> Here is $\LaTeX$
+
+> [!NOTE]
+> $$\LaTeX$$
+
+> [!NOTE]<br>This is a note.<br>$\LaTex$
+
+> [!NOTE]<br>$\LaTeX$
+
+> [!NOTE]<br>Here is $\LaTeX$
+
+> [!NOTE]<br>$$\LaTeX$$
+
 ## list
 
 ### alerts in lists (broken since 14 Nov 2023)
