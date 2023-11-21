@@ -430,21 +430,48 @@ fn main () {
 > $\LaTeX$
 
 > [!NOTE]
+> This is a note.\
 > $\LaTeX$
 
 > [!NOTE]
-> Here is $\LaTeX$
+> This is a note.<br>
+> $\LaTeX$
+
+> [!NOTE]
+> $\LaTeX$
+
+> [!NOTE]
+> Here is $\LaTeX$.
+
+> [!NOTE]
+> This is a note.
+> $$\LaTeX$$
+
+> [!NOTE]
+> This is a note.\
+> $$\LaTeX$$
+
+> [!NOTE]
+> This is a note.<br>
+> $$
 
 > [!NOTE]
 > $$\LaTeX$$
 
-> [!NOTE]<br>This is a note.<br>$\LaTex$
+> [!NOTE]
+> Here is $$\LaTeX$$.
+
+> [!NOTE]<br>This is a note.<br>$\LaTeX$
 
 > [!NOTE]<br>$\LaTeX$
 
 > [!NOTE]<br>Here is $\LaTeX$
 
+> [!NOTE]<br>This is a note.<br>$$\LaTeX$$
+
 > [!NOTE]<br>$$\LaTeX$$
+
+> [!NOTE]<br>Here is $$\LaTeX$$
 
 ## list
 
