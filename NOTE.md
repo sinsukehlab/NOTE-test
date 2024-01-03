@@ -473,6 +473,17 @@ fn main () {
 
 > [!NOTE]<br>Here is $$\LaTeX$$.
 
+> [!NOTE]
+> This is a note.
+> ```math
+> \LaTeX
+> ```
+
+> [!NOTE]
+> ```math
+> \LaTeX
+> ```
+
 ## list
 
 ### alerts in lists (broken since 14 Nov 2023)
