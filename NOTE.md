@@ -461,13 +461,13 @@ fn main () {
 > [!NOTE]
 > Here is $$\LaTeX$$.
 
-> [!NOTE]<br>This is a note.<br>$\LaTeX$
+> [!NOTE]<br>This is a one-liner note.<br>$\LaTeX$
 
 > [!NOTE]<br>$\LaTeX$
 
 > [!NOTE]<br>Here is $\LaTeX$.
 
-> [!NOTE]<br>This is a note.<br>$$\LaTeX$$
+> [!NOTE]<br>This is a one-liner note.<br>$$\LaTeX$$
 
 > [!NOTE]<br>$$\LaTeX$$
 
@@ -847,3 +847,27 @@ fn main () {
 > | > [!NOTE]<br>This is a note. | > [!NOTE]<br>This is a note. | > [!NOTE]<br>This is a note. |
 > | > [!IMPORTANT]<br>This is important. | > [!IMPORTANT]<br>This is important. | > [!IMPORTANT]<br>This is important. |
 > | > [!WARNING]<br>This is a warning. | > [!WARNING]<br>This is a warning. | > [!WARNING]<br>This is a warning. |
+
+## `<div>`
+
+### `<div>` in alerts
+> [!NOTE]
+> This is a note.
+> <div align="center">
+> This is inside `<div>`.
+> </div>
+
+> [!NOTE]
+> <div align="center">
+> This is inside `<div>`.
+> </div>
+
+> [!NOTE]
+> <div align="center">This is inside `<div>`.</div>
+
+> [!NOTE]<br>This is a one-liner note.<br><div align="center">This is inside `<div>`.</div>
+
+> [!NOTE]<br><div align="center">This is inside `<div>`.</div>
+
+### alerts in `<div>`
+
