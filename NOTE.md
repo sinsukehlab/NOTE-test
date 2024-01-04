@@ -871,7 +871,7 @@ fn main () {
 
 > [!NOTE]<br><div align="center">This is inside `<div>`.</div>
 
-### alerts in `<div>`
+### alerts in `<div>` (broken since 29 Nov 2023?)
 <div align="center">
 > [!NOTE]
 > This is a note.
