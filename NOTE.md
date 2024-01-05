@@ -923,6 +923,46 @@ fn main () {
 
 > [!NOTE]<br><table>This is inside `<table>`.</table>
 
+> [!NOTE]
+> <table>
+> <thead>
+> <tr>
+> <th>Header 1</th>
+> <th>Header 2</th>
+> </tr>
+> </thead>
+> <tbody>
+> <tr>
+> <td>a</td>
+> <td>b</td>
+> </tr>
+> <tr>
+> <td>c</td>
+> <td>d</td>
+> </tr>
+> </tbody>
+> </table>
+
+> [!NOTE]<br><table><thead><tr><th>Header 1</th><th>Header 2</th></tr></thead><tbody><tr><td>a</td><td>b</td></tr><tr><td>c</td><td>d</td></tr></tbody></table>
+
+> [!NOTE]
+> <table>
+> <tr>
+> <th>Header 1</th>
+> <th>Header 2</th>
+> </tr>
+> <tr>
+> <td>a</td>
+> <td>b</td>
+> </tr>
+> <tr>
+> <td>c</td>
+> <td>d</td>
+> </tr>
+> </table>
+
+> [!NOTE]<br><table><tr><th>Header 1</th><th>Header 2</th></tr><tr><td>a</td><td>b</td></tr><tr><td>c</td><td>d</td></tr></table>
+
 ### alerts in `<table>`
 
 <table>
@@ -1047,6 +1087,91 @@ fn main () {
 
 </td>
 </tr>
+</table>
+
+<table>
+<thead>
+<tr>
+<th>NOTE</th>
+<th>TIP</th>
+<th>IMPORTANT</th>
+<th>CAUTION</th>
+<th>WARNING</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+
+<td>
+
+> [!NOTE]
+> This is a note.
+
+</td>
+
+<td>
+
+> [!TIP]
+> This is a tip.
+
+</td>
+
+<td>
+
+> [!IMPORTANT]
+> This is important.
+
+</td>
+
+<td>
+
+> [!CAUTION]
+> This is a caution.
+
+</td>
+
+<td>
+
+> [!WARNING]
+> This is a warning.
+
+</td>
+
+</tr>
+<tr>
+
+<td>
+
+> [!NOTE]<br>This is a one-liner note.
+
+</td>
+
+<td>
+
+> [!TIP]<br>This is a one-liner tip.
+
+</td>
+
+<td>
+
+> [!IMPORTANT]<br>This is important (one-liner).
+
+</td>
+
+<td>
+
+> [!CAUTION]<br>This is a one-liner caution.
+
+</td>
+
+<td>
+
+> [!WARNING]<br>This is a one-liner warning.
+
+</td>
+
+</tr>
+</tbody>
 </table>
 
 ## `<div>`
