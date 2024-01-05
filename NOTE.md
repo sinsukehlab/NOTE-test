@@ -856,7 +856,7 @@ fn main () {
 > <table>
 > <tr>
 > <td>
-> This is inside `<table><tr><td>`.
+> This is inside `\<table\>\<tr\>\<td\>`.
 > </td>
 > </tr>
 > </table>
@@ -865,13 +865,13 @@ fn main () {
 > <table>
 > <tr>
 > <td>
-> This is inside `<table><tr><td>`.
+> This is inside `\<table\>\<tr\>\<td\>`.
 > </td>
 > </tr>
 > </table>
 
 > [!NOTE]
-> <table><tr><td>This is inside `<table><tr><td>`.</td></tr></table>
+> <table><tr><td>This is inside `\<table\>\<tr\>\<td\>`.</td></tr></table>
 
 > [!NOTE]<br>This is a one-liner note.<br><table><tr><td>This is inside `<table><tr><td>`.</td></tr></table>
 
@@ -883,19 +883,19 @@ fn main () {
 > This is a note.
 > <table>
 > <tr>
-> This is inside `<table><tr>`.
+> This is inside `\<table\>\<tr\>`.
 > </tr>
 > </table>
 
 > [!NOTE]
 > <table>
 > <tr>
-> This is inside `<table><tr>`.
+> This is inside `\<table\>\<tr\>`.
 > </tr>
 > </table>
 
 > [!NOTE]
-> <table><tr>This is inside `<table><tr>`.</tr></table>
+> <table><tr>This is inside `\<table\>\<tr\>`.</tr></table>
 
 > [!NOTE]<br>This is a one-liner note.<br><table><tr>This is inside `<table><tr>`.</tr></table>
 
@@ -906,16 +906,16 @@ fn main () {
 > [!NOTE]
 > This is a note.
 > <table>
-> This is inside `<table>`.
+> This is inside `\<table\>`.
 > </table>
 
 > [!NOTE]
 > <table>
-> This is inside `<table>`.
+> This is inside `\<table\>`.
 > </table>
 
 > [!NOTE]
-> <table>This is inside `<table>`.</table>
+> <table>This is inside `\<table\>`.</table>
 
 > [!NOTE]<br>This is a one-liner note.<br><table>This is inside `<table>`.</table>
 
@@ -950,16 +950,16 @@ fn main () {
 > [!NOTE]
 > This is a note.
 > <div align="center">
-> This is inside `<div>`.
+> This is inside `\<div\>`.
 > </div>
 
 > [!NOTE]
 > <div align="center">
-> This is inside `<div>`.
+> This is inside `\<div\>`.
 > </div>
 
 > [!NOTE]
-> <div align="center">This is inside `<div>`.</div>
+> <div align="center">This is inside `\<div\>`.</div>
 
 > [!NOTE]<br>This is a one-liner note.<br><div align="center">This is inside `<div>`.</div>
 
@@ -977,7 +977,7 @@ fn main () {
 > [!NOTE]
 > This is a note.
 > <div align="right">
-> This inside `<div>`.
+> This inside `\<div\>`.
 > </div>
 </div>
 
