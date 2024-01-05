@@ -965,6 +965,90 @@ fn main () {
 
 <table><tr><td>> [!NOTE]<br>This is a one-liner note.</td></tr></table>
 
+<table>
+<tr>
+> [!NOTE]
+> This is a note.
+</tr>
+</table>
+
+<table>
+<tr>
+
+> [!NOTE]
+> This is a note.
+
+</tr>
+</table>
+
+<table>
+<tr>
+> [!NOTE]<br>This is a one-liner note.
+</tr>
+</table>
+
+<table>
+<tr>
+
+> [!NOTE]<br>This is a one-liner note.
+
+</tr>
+</table>
+
+<table><tr>> [!NOTE]<br>This is a one-liner note.</tr></table>
+
+<table>
+> [!NOTE]
+> This is a note.
+</table>
+
+<table>
+
+> [!NOTE]
+> This is a note.
+
+</table>
+
+<table>
+> [!NOTE]<br>This is a one-liner note.
+</table>
+
+<table>
+
+> [!NOTE]<br>This is a one-liner note.
+
+</table>
+
+<table>> [!NOTE]<br>This is a one-liner note.</table>
+
+<table>
+<tr>
+<td>
+
+> [!NOTE]
+> This is a note.
+> <table>
+> <tr>
+> <td>
+> This is inside `\<table\>\<tr\>\<td\>`.
+> </td>
+> </tr>
+> </table>
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td>
+
+> [!NOTE]<br>This is a note.<br><table><tr><td>This is inside `<table><tr><td>`.</td></tr></table>
+
+</td>
+</tr>
+</table>
+
 ## `<div>`
 
 ### `<div>` in alerts
@@ -988,7 +1072,7 @@ fn main () {
 
 > [!NOTE]<br><div align="center">This is inside `<div>`.</div>
 
-### alerts in `<div>`
+### alerts in `<div>` (broken since 28 Nov 2023?)
 <div align="center">
 > [!NOTE]
 > This is a note.
