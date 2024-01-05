@@ -1384,7 +1384,7 @@ fn main () {
 > [!CAUTION]
 > This is a caution.
 
-> [!CAUTIION]<br>This is a one-liner caution.
+> [!CAUTION]<br>This is a one-liner caution.
 
 </td>
 
