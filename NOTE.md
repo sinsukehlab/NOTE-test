@@ -798,7 +798,7 @@ fn main () {
     > [!NOTE]
     > - [x] This is a task list directly in an alert.
 
-## table
+## table (GitHub Flavored Markdown)
 
 ### tables in alerts
 > [!NOTE]
@@ -847,6 +847,102 @@ fn main () {
 > | > [!NOTE]<br>This is a note. | > [!NOTE]<br>This is a note. | > [!NOTE]<br>This is a note. |
 > | > [!IMPORTANT]<br>This is important. | > [!IMPORTANT]<br>This is important. | > [!IMPORTANT]<br>This is important. |
 > | > [!WARNING]<br>This is a warning. | > [!WARNING]<br>This is a warning. | > [!WARNING]<br>This is a warning. |
+
+## `<table>`
+
+### `<table>` in alerts
+> [!NOTE]
+> This is a note.
+> <table>
+> <tr>
+> <td>
+> This is inside `<table><tr><td>`.
+> </td>
+> </tr>
+> </table>
+
+> [!NOTE]
+> <table>
+> <tr>
+> <td>
+> This is inside `<table><tr><td>`.
+> </td>
+> </tr>
+> </table>
+
+> [!NOTE]
+> <table><tr><td>This is inside `<table><tr><td>`.</td></tr></table>
+
+> [!NOTE]<br>This is a one-liner note.<br><table><tr><td>This is inside `<table><tr><td>`.</td></tr></table>
+
+> [!NOTE]<br>This is a one-liner note.<table><tr><td>This is inside `<table><tr><td>`.</td></tr></table>
+
+> [!NOTE]<br><table><tr><td>This is inside `<table><tr><td>`.</td></tr></table>
+
+> [!NOTE]
+> This is a note.
+> <table>
+> <tr>
+> This is inside `<table><tr>`.
+> </tr>
+> </table>
+
+> [!NOTE]
+> <table>
+> <tr>
+> This is inside `<table><tr>`.
+> </tr>
+> </table>
+
+> [!NOTE]
+> <table><tr>This is inside `<table><tr>`.</tr></table>
+
+> [!NOTE]<br>This is a one-liner note.<br><table><tr>This is inside `<table><tr>`.</tr></table>
+
+> [!NOTE]<br>This is a one-liner note.<table><tr>This is inside `<table><tr>`.</tr></table>
+
+> [!NOTE]<br><table><tr>This is inside `<table><tr>`.</tr></table>
+
+> [!NOTE]
+> This is a note.
+> <table>
+> This is inside `<table>`.
+> </table>
+
+> [!NOTE]
+> <table>
+> This is inside `<table>`.
+> </table>
+
+> [!NOTE]
+> <table>This is inside `<table>`.</table>
+
+> [!NOTE]<br>This is a one-liner note.<br><table>This is inside `<table>`.</table>
+
+> [!NOTE]<br>This is a one-liner note.<table>This is inside `<table>`.</table>
+
+> [!NOTE]<br><table>This is inside `<table>`.</table>
+
+### alerts in `<table>`
+
+<table>
+<tr>
+<td>
+> [!NOTE]
+> This is a note.
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td>
+> [!NOTE]<br>This is a one-liner note.
+</td>
+</tr>
+</table>
+
+<table><tr><td>> [!NOTE]<br>This is a one-liner note.</td></tr></table>
 
 ## `<div>`
 
