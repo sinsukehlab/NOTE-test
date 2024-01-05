@@ -963,6 +963,81 @@ fn main () {
 
 > [!NOTE]<br><table><tr><th>Header 1</th><th>Header 2</th></tr><tr><td>a</td><td>b</td></tr><tr><td>c</td><td>d</td></tr></table>
 
+> [!NOTE]
+> <table>
+> <thead>
+> <tr>
+> <th align="left">Left</th>
+> <th align="center">Center</th>
+> <th align="right">Right</th>
+> </tr>
+> </thead>
+> <tbody>
+> <tr>
+> <td align="left">abcdefg</td>
+> <td align="center">abcdefg</td>
+> <td align="right">abcdefg</td>
+> </tr>
+> <tr>
+> <td align="left">1234</td>
+> <td align="center">1234</td>
+> <td align="right">1234</td>
+> </tr>
+> </tbody>
+> </table>
+
+> [!NOTE]<br><table><thead><tr><th align="left">Left</th><th align="center">Center</th><th align="right">Right</th></tr></thead><tbody><tr><td align="left">abcdefg</td><td align="center">abcdefg</td><td align="right">abcdefg</td></tr><tr><td align="left">1234</td><td align="center">1234</td><td align="right">1234</td></tr></tbody></table>
+
+> [!NOTE]
+> <table>
+> <thead>
+> <tr>
+> <th align="left">Left</th>
+> <th align="center">Center</th>
+> <th align="right">Right</th>
+> </tr>
+> </thead>
+> <tbody>
+> <tr>
+> <td>abcdefg</td>
+> <td>abcdefg</td>
+> <td>abcdefg</td>
+> </tr>
+> <tr>
+> <td>1234</td>
+> <td>1234</td>
+> <td>1234</td>
+> </tr>
+> </tbody>
+> </table>
+
+> [!NOTE]<br><table><thead><tr><th align="left">Left</th><th align="center">Center</th><th align="right">Right</th></tr></thead><tbody><tr><td>abcdefg</td><td>abcdefg</td><td>abcdefg</td></tr><tr><td>1234</td><td>1234</td><td>1234</td></tr></tbody></table>
+
+> [!NOTE]
+> <table>
+> <thead>
+> <tr>
+> <th>Header 1</th>
+> <th>Header 2</th>
+> <th>Header 3</th>
+> </tr>
+> </thead>
+> <tbody>
+> <tr>
+> <td align="left">abc</td>
+> <td align="center">abc</td>
+> <td align="right">abc</td>
+> </tr>
+> <tr>
+> <td align="right">1234</td>
+> <td align="center">1234</td>
+> <td align="left">1234</td>
+> </tr>
+> </tbody>
+> </table>
+
+> [!NOTE]<br><table><thead><tr><th>Header 1</th><th>Header 2</th><th>Header 3</th></tr></thead><tbody><tr><td align="left">abc</td><td align="center">abc</td><td align="right">abc</td></tr><tr><td align="right">1234</td><td align="center">1234</td><td align="left">1234</td></tr></tbody></table>
+
 ### alerts in `<table>`
 
 <table>
@@ -1100,6 +1175,7 @@ fn main () {
 </tr>
 </thead>
 <tbody>
+
 <tr>
 
 <td>
@@ -1138,6 +1214,7 @@ fn main () {
 </td>
 
 </tr>
+
 <tr>
 
 <td>
@@ -1171,8 +1248,211 @@ fn main () {
 </td>
 
 </tr>
+
 </tbody>
 </table>
+
+<table>
+<thead>
+<tr>
+
+<th>Header</th>
+
+<th>
+
+> [!NOTE]<br>This is a one-liner note.
+
+</th>
+
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Content</td>
+<td>NOTE</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th align="left">Left-aligned</th>
+<th align="center">Center-aligned</th>
+<th align="right">Right-aligned</th>
+</tr>
+</thead>
+<tbody>
+
+<tr>
+
+<td align="left">
+
+> [!NOTE]
+> This is a note.
+
+> [!NOTE]<br>This is a one-liner note.
+
+</td>
+
+<td align="center">
+
+> [!NOTE]
+> This is a note.
+
+> [!NOTE]<br>This is a one-liner note.
+
+</td>
+
+<td align="right">
+
+> [!NOTE]
+> This is a note.
+
+> [!NOTE]<br>This is a one-liner note.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td align="left">
+
+> [!TIP]
+> This is a tip.
+
+> [!TIP]<br>This is a one-liner tip.
+
+</td>
+
+<td align="center">
+
+> [!TIP]
+> This is a tip.
+
+> [!TIP]<br>This is a one-liner tip.
+
+</td>
+
+<td align="right">
+
+> [!TIP]
+> This is a tip.
+
+> [!TIP]<br>This is a one-liner tip.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td align="left">
+
+> [!IMPORTANT]
+> This is important.
+
+> [!IMPORTANT]<br>This is important (one-liner).
+
+</td>
+
+<td align="center">
+
+> [!IMPORTANT]
+> This is important.
+
+> [!IMPORTANT]<br>This is important (one-liner).
+
+</td>
+
+<td align="right">
+
+> [!IMPORTANT]
+> This is important.
+
+> [!IMPORTANT]<br>This is important (one-liner).
+
+</td>
+
+</tr>
+
+<tr>
+
+<td align="left">
+
+> [!CAUTION]
+> This is a caution.
+
+> [!CAUTIION]<br>This is a one-liner caution.
+
+</td>
+
+<td align="center">
+
+> [!CAUTION]
+> This is a caution.
+
+> [!CAUTION]<br>This is a one-liner caution.
+
+</td>
+
+<td align="right">
+
+> [!CAUTION]
+> This is a caution.
+
+> [!CAUTION]<br>This is a one-liner caution.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td align="left">
+
+> [!WARNING]
+> This is a warning.
+
+> [!WARNING]<br>This is a one-liner warning.
+
+</td>
+
+<td align="center">
+
+> [!WARNING]
+> This is a warning.
+
+> [!WARNING]<br>This is a one-liner warning.
+
+</td>
+
+<td align="right">
+
+> [!WARNING]
+> This is a warning.
+
+> [!WARNING]<br>This is a one-liner warning.
+
+</td>
+
+</tr>
+
+</tbody>
+</table>
+
+> [!NOTE]
+> <table>
+> <tr>
+> <td>
+
+> [!NOTE]
+> This is a note.
+
+> </td>
+> </tr>
+> </table>
 
 ## `<div>`
 
