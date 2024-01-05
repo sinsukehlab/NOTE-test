@@ -937,7 +937,28 @@ fn main () {
 <table>
 <tr>
 <td>
+
+> [!NOTE]
+> This is a note.
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td>
 > [!NOTE]<br>This is a one-liner note.
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td>
+
+> [!NOTE]<br>This is a one-liner note.
+
 </td>
 </tr>
 </table>
@@ -967,18 +988,35 @@ fn main () {
 
 > [!NOTE]<br><div align="center">This is inside `<div>`.</div>
 
-### alerts in `<div>` (broken since 29 Nov 2023?)
+### alerts in `<div>`
 <div align="center">
 > [!NOTE]
 > This is a note.
 </div>
 
 <div align="center">
+
+> [!NOTE]
+> This is a note.
+
+</div>
+
+<div align="center">
 > [!NOTE]
 > This is a note.
 > <div align="right">
-> This inside `\<div\>`.
+> This is inside `\<div\>`.
 > </div>
+</div>
+
+<div align="center">
+
+> [!NOTE]
+> This is a note.
+> <div align="right">
+> This is inside `\<div\>`.
+> </div>
+
 </div>
 
 <div align="center">
@@ -986,7 +1024,19 @@ fn main () {
 </div>
 
 <div align="center">
+
+> [!NOTE]<br>This is a one-liner note.
+
+</div>
+
+<div align="center">
 > [!NOTE]<br>This is a one-liner note.<br><div align="right">This is inside `<div>`.</div>
+</div>
+
+<div align="center">
+
+> [!NOTE]<br>This is a one-liner note.<br><div align="right">This is inside `<div>`.</div>
+
 </div>
 
 <div align="center">> [!NOTE]<br>This is a one-liner note.</div>
