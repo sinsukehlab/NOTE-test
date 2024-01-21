@@ -1454,6 +1454,236 @@ fn main () {
 > </tr>
 > </table>
 
+### with MathJax
+> [!NOTE]
+> <table>
+> <tr>
+> <td>
+> $\LaTeX$
+> </td>
+> </tr>
+> </table>
+
+> [!NOTE]
+> <table><tr><td>$\LaTeX$</td></tr></table>
+
+> [!NOTE]
+> <table>
+> <tr>
+> <td>
+> $$\LaTeX$$
+> </td>
+> </tr>
+> </table>
+
+> [!NOTE]
+> <table><tr><td>$$\LaTeX$$</td></tr></table>
+
+> [!NOTE]
+> <table>
+> <tr>
+> <td>
+> $$
+> \LaTeX
+> $$
+> </td>
+> </tr>
+> </table>
+
+> [!NOTE]
+> <table>
+> <tr>
+> <td>
+> 
+> $$
+> \LaTeX
+> $$
+> 
+> </td>
+> </tr>
+> </table>
+
+> [!NOTE]
+> <table>
+> <tr>
+> <td>
+> 
+> ```math
+> \LaTeX
+> ```
+> 
+> </td>
+> </tr>
+> </table>
+
+<table>
+<tr>
+<td>
+
+$\LaTeX$
+> [!NOTE]
+> This is a note.
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td>
+
+$$\LaTeX$$
+> [!NOTE]
+> This is a note.
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td>
+
+$$
+\LaTeX
+$$
+> [!NOTE]
+> This is a note.
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td>
+
+```math
+\LaTeX
+```
+> [!NOTE]
+> This is a note.
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td>
+
+$\LaTeX$
+> [!NOTE]<br>This is a one-liner note.
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td>
+
+$$\LaTeX$$
+> [!NOTE]<br>This is a one-liner note.
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td>
+
+$$
+\LaTeX
+$$
+> [!NOTE]<br>This is a one-liner note.
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td>
+
+```math
+\LaTeX
+```
+> [!NOTE]<br>This is a one-liner note.
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td>
+
+> [!NOTE]
+> $\LaTeX$
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td>
+
+> [!NOTE]
+> $$\LaTeX$$
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td>
+
+> [!NOTE]
+> $$
+> \LaTeX
+> $$
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td>
+
+> [!NOTE]
+> ```math
+> \LaTeX
+> ```
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td>
+
+> [!NOTE]<br>$\LaTeX$
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td>
+
+> [!NOTE]<br>$$\LaTeX$$
+
+</td>
+</tr>
+</table>
+
 ## `<div>`
 
 ### `<div>` in alerts
