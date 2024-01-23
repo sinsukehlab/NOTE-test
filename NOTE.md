@@ -1892,6 +1892,7 @@ $$\LaTeX$$
 </tr>
 
 </table>
+
 <table>
 
 <tr>
@@ -1977,6 +1978,7 @@ $$\LaTeX$$
 </tr>
 
 </table>
+
 <table>
 
 <tr>
