@@ -2088,7 +2088,7 @@ $$
 </div>
 
 <div align="center">
-> [!NOTE]<br>This is a one-liner note.<br><div align="right">This is inside `<div>`.</div>
+> [!NOTE]<br>This is a one-liner note.<br><div align="right">This is inside <code>&lt;div&gt;</code>.</div>
 </div>
 
 <div align="center">
@@ -2099,4 +2099,4 @@ $$
 
 <div align="center">> [!NOTE]<br>This is a one-liner note.</div>
 
-<div align="center">> [!NOTE]<br>This is a one-liner note.<br><div align="right">This is inside `<div>`.</div></div>
+<div align="center">> [!NOTE]<br>This is a one-liner note.<br><div align="right">This is inside <code>&lt;div&gt;</code>.</div></div>
