@@ -1507,6 +1507,17 @@ fn main () {
 > <table>
 > <tr>
 > <td>
+> ```math
+> \LaTeX
+> ```
+> </td>
+> </tr>
+> </table>
+
+> [!NOTE]
+> <table>
+> <tr>
+> <td>
 > 
 > ```math
 > \LaTeX
