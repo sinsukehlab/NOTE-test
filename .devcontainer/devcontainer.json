@@ -12,7 +12,8 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"bierner.github-markdown-preview"
+				"bierner.github-markdown-preview",
+				"GitHub.vscode-github-actions"
 			]
 		}
 	}
