@@ -1,6 +1,7 @@
 # `[!NOTE]` test
 
 ## Simple alerts
+
 > [!NOTE]
 > This is a note.
 
@@ -47,6 +48,7 @@ Broken since 14 Nov 2023
 > This is a note.
 
 ## nested alerts
+
 > [!NOTE]
 > This is a note.
 >> [!NOTE]
@@ -120,6 +122,7 @@ Broken since 14 Nov 2023
 ## block quote
 
 ### alerts in quotes (broken since 14 Nov 2023)
+
 > This breaks the syntax.
 > [!NOTE]
 > This is a note.
@@ -209,6 +212,7 @@ Broken since 14 Nov 2023
 > [!NOTE]<br>This is a one-liner note (broken).
 
 ### quotes in alerts
+
 > [!NOTE]
 > This is a note.
 >> This is indented (`>>`).
@@ -246,6 +250,7 @@ Broken since 14 Nov 2023
 > > > This is a quote (`> > > `).
 
 ## thematic break and setext heading
+
 > [!NOTE]
 > This is a note (broken).
 > ---
@@ -358,6 +363,7 @@ Broken since 14 Nov 2023
 > [!NOTE]<br><hr />
 
 ## code block
+
 simple indented code block
 
     fn main () {
@@ -425,6 +431,7 @@ fn main () {
 > ```
 
 ## MathJax (directly supported since 14 Nov 2023)
+
 > [!NOTE]
 > This is a note.
 > $\LaTeX$
@@ -475,6 +482,17 @@ fn main () {
 
 > [!NOTE]
 > This is a note.
+> $$
+> \LaTeX
+> $$
+
+> [!NOTE]
+> $$
+> \LaTeX
+> $$
+
+> [!NOTE]
+> This is a note.
 > ```math
 > \LaTeX
 > ```
@@ -487,6 +505,7 @@ fn main () {
 ## list
 
 ### alerts in lists (broken since 14 Nov 2023)
+
 - This is a bullet list with `-`.
   > [!NOTE]
   > This is a note.
@@ -633,6 +652,7 @@ fn main () {
     > This is a note.
 
 ### lists in alerts
+
 > [!NOTE]
 > This is a note.
 > - This is a bullet list with `-`.
@@ -801,6 +821,7 @@ fn main () {
 ## table (GitHub Flavored Markdown)
 
 ### tables in alerts
+
 > [!NOTE]
 > | Header 1 | Header 2 |
 > | --- | --- |
@@ -851,6 +872,7 @@ fn main () {
 ## `<table>`
 
 ### `<table>` in alerts
+
 > [!NOTE]
 > This is a note.
 > <table>
@@ -1455,6 +1477,7 @@ fn main () {
 > </table>
 
 ### with MathJax
+
 > [!NOTE]
 > <table>
 > <tr>
@@ -2026,6 +2049,7 @@ $$
 ## `<div>`
 
 ### `<div>` in alerts
+
 > [!NOTE]
 > This is a note.
 > <div align="center">
@@ -2047,6 +2071,7 @@ $$
 > [!NOTE]<br><div align="center">This is inside `<div>`.</div>
 
 ### alerts in `<div>` (broken since 28 Nov 2023?)
+
 <div align="center">
 > [!NOTE]
 > This is a note.
@@ -2100,3 +2125,4 @@ $$
 <div align="center">> [!NOTE]<br>This is a one-liner note.</div>
 
 <div align="center">> [!NOTE]<br>This is a one-liner note.<br><div align="right">This is inside <code>&lt;div&gt;</code>.</div></div>
+
