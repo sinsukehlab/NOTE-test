@@ -482,6 +482,25 @@ fn main () {
 
 > [!NOTE]
 > This is a note.
+> $$ \LaTeX $$
+
+> [!NOTE]
+> This is a note.
+> 
+> $$ \LaTeX $$
+
+> [!NOTE]
+> $$ \LaTeX $$
+
+> [!NOTE]
+> This is a note.
+> $$
+> \LaTeX
+> $$
+
+> [!NOTE]
+> This is a note.
+> 
 > $$
 > \LaTeX
 > $$
