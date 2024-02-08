@@ -2145,3 +2145,101 @@ $$
 
 <div align="center">> [!NOTE]<br>This is a one-liner note.<br><div align="right">This is inside <code>&lt;div&gt;</code>.</div></div>
 
+## `<html>`
+
+<html>html</html>
+
+<html>
+<head>
+head
+</head>
+<body>
+body
+</body>
+</html>
+
+### `<html>` in alerts
+
+> [!NOTE]
+> This is a note.
+> <html>This is inside <code>&lt;html&gt;</code>.</html>
+
+> [!NOTE]
+> <html>This is inside <code>&lt;html&gt;</code>.</html>
+
+> [!NOTE]<br>This is a one-liner note.<br><html>This is inside `<html>`.</html>
+
+> [!NOTE]<br>This is a one-liner note.<html>This is inside `<html>`.</html>
+
+> [!NOTE]<br><html>This is inside `<html>`.</html>
+
+> [!NOTE]
+> <html>
+> This is inside <code>&lt;html&gt;</code>.
+> </html>
+
+> [!NOTE]
+> <html>
+> <head>
+> This is inside <code>&lt;html&gt;&lt;head&gt;</code>.
+> </head>
+> <body>
+> This is inside <code>&lt;html&gt;&lt;body&gt;</code>.
+> </body>
+> </html>
+
+### alerts in `<html>`
+
+<html>
+> [!NOTE]
+> This is a note.
+</html>
+
+<html>
+
+> [!NOTE]
+> This is a note.
+
+</html>
+
+<html>
+> [!NOTE]
+> This is a note.
+> <html>
+> This is inside <code>&lt;html&gt;</code>.
+> </html>
+</html>
+
+<html>
+
+> [!NOTE]
+> This is a note.
+> <html>
+> This is inside <code>&lt;html&gt;</code>.
+> </html>
+
+</html>
+
+<html>
+> [!NOTE]<br>This is a one-liner note.
+</html>
+
+<html>
+
+> [!NOTE]<br>This is a one-liner note.
+
+</html>
+
+<html>> [!NOTE]<br>This is a one-liner note.</html>
+
+<html>
+> [!NOTE]<br>This is a one-liner note.<br><html>This is inside <code>&lt;html&gt;</code>.</html>
+</html>
+
+<html>
+
+> [!NOTE]<br>This is a one-liner note.<br><html>This is inside `<html>`.</html>
+
+</html>
+
+<html>> [!NOTE]<br>This is a one-liner note.<br><html>This is inside <code>&lt;html&gt;</code>.</html></html>
