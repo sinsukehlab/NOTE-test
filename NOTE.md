@@ -2243,3 +2243,96 @@ body
 </html>
 
 <html>> [!NOTE]<br>This is a one-liner note.<br><html>This is inside <code>&lt;html&gt;</code>.</html></html>
+
+## `<head>`
+
+<head>head</head>
+
+<head>
+<title>
+title
+</title>
+</head>
+
+### `<head>` in alerts
+
+> [!NOTE]
+> This is a note.
+> <head>This is inside <code>&lt;head&gt;</code>.</head>
+
+> [!NOTE]
+> <head>This is inside <code>&lt;head&gt;</code>.</head>
+
+> [!NOTE]<br>This is a one-liner note.<br><head>This is inside `<head>`.</head>
+
+> [!NOTE]<br>This is a one-liner note.<head>This is inside `<head>`.</head>
+
+> [!NOTE]<br><head>This is inside `<head>`.</head>
+
+> [!NOTE]
+> <head>
+> This is inside <code>&lt;head&gt;</code>.
+> </head>
+
+> [!NOTE]
+> <head>
+> <title>
+> This is inside <code>&lt;head&gt;&lt;title&gt;</code>.
+> </title>
+> </head>
+
+### alerts in `<head>`
+
+<head>
+> [!NOTE]
+> This is a note.
+</head>
+
+<head>
+
+> [!NOTE]
+> This is a note.
+
+</head>
+
+<head>
+> [!NOTE]
+> This is a note.
+> <head>
+> This is inside <code>&lt;head&gt;</code>.
+> </head>
+</head>
+
+<head>
+
+> [!NOTE]
+> This is a note.
+> <head>
+> This is inside <code>&lt;head&gt;</code>.
+> </head>
+
+</head>
+
+<head>
+> [!NOTE]<br>This is a one-liner note.
+</head>
+
+<head>
+
+> [!NOTE]<br>This is a one-liner note.
+
+</head>
+
+<head>> [!NOTE]<br>This is a one-liner note.</head>
+
+<head>
+> [!NOTE]<br>This is a one-liner note.<br><head>This is inside <code>&lt;head&gt;</code>.</head>
+</head>
+
+<head>
+
+> [!NOTE]<br>This is a one-liner note.<br><head>This is inside `<head>`.</head>
+
+</head>
+
+<head>> [!NOTE]<br>This is a one-liner note.<br><head>This is inside <code>&lt;head&gt;</code>.</head></head>
