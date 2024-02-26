@@ -2449,6 +2449,12 @@ paragraph test
 
 <title>> [!NOTE]<br>This is a one-liner note.<br><title>This is inside <code>&lt;title&gt;</code>.</title></title>
 
+## `<meta>`
+
+<meta charset="utf-8" />
+
+<meta>meta test</meta>
+
 ## `<body>`
 
 <body>body</body>
