@@ -2244,6 +2244,25 @@ body
 
 <html>> [!NOTE]<br>This is a one-liner note.<br><html>This is inside <code>&lt;html&gt;</code>.</html></html>
 
+<html>
+
+> [!NOTE]
+> This is a note.
+> <head>
+> This is inside <code>&lt;head&gt;</code>.
+> </head>
+> <body>
+> This is inside <code>&lt;body&gt;</code>.
+> </body>
+
+</html>
+
+<html>
+
+> [!NOTE]<br>This is a one-liner note.<br><head>This is inside `<head>`.</head><br><body>This is inside `<body>`.</body>
+
+</html>
+
 ## `<head>`
 
 <head>head</head>
@@ -2337,7 +2356,7 @@ title
 
 <head>> [!NOTE]<br>This is a one-liner note.<br><head>This is inside <code>&lt;head&gt;</code>.</head></head>
 
-## `<title>`
+## `<title>` (not supported)
 
 <title>title</title>
 
@@ -2522,3 +2541,19 @@ body paragraph
 </body>
 
 <body>> [!NOTE]<br>This is a one-liner note.<br><body>This is inside <code>&lt;body&gt;</code>.</body></body>
+
+<body>
+
+> [!NOTE]
+> This is a note.
+> <p>
+> This is inside <code>&lt;p&gt;</code>.
+> </p>
+
+</body>
+
+<body>
+
+> [!NOTE]<br>This is a one-liner note.<br><p>This is inside `<p>`.</p>
+
+</body>
