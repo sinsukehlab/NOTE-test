@@ -2455,6 +2455,32 @@ paragraph test
 
 <meta>meta test</meta>
 
+> [!NOTE]
+> This is a note.
+> <meta charset="utf-8" />
+
+> [!NOTE]
+> <meta charset="utf-8" />
+
+> [!NOTE]<br>This is a one-liner note.<br><meta charset="utf-8" />
+
+> [!NOTE]<br>This is a one-liner note.<meta charset="utf-8" />
+
+> [!NOTE]<br><meta charset="utf-8" />
+
+> [!NOTE]
+> This is a note.
+> <meta>This is inside <code>&lt;meta&gt;</code>.</meta>
+
+> [!NOTE]
+> <meta>This is inside <code>&lt;meta&gt;</code>.</meta>
+
+> [!NOTE]<br>This is a one-liner note.<br><meta>This is inside `<meta>`.</meta>
+
+> [!NOTE]<br>This is a one-liner note.<meta>This is inside `<meta>`.</meta>
+
+> [!NOTE]<br><meta>This is inside `<meta>`.</meta>
+
 ## `<body>`
 
 <body>body</body>
