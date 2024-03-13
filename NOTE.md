@@ -2481,6 +2481,38 @@ paragraph test
 
 > [!NOTE]<br><meta>This is inside `<meta>`.</meta>
 
+## `<base>`
+
+<base href="https://github.com/" />
+
+<base>base test</base>
+
+> [!NOTE]
+> This is a note.
+> <base href="https://github.com/" />
+
+> [!NOTE]
+> <base href="https://github.com/" />
+
+> [!NOTE]<br>This is a one-liner note.<br><base href="https://github.com/" />
+
+> [!NOTE]<br>This is a one-liner note.<base href="https://github.com/" />
+
+> [!NOTE]<br><base href="https://github.com/" />
+
+> [!NOTE]
+> This is a note.
+> <base>This is inside <code>&lt;base&gt;</code>.</base>
+
+> [!NOTE]
+> <base>This is inside <code>&lt;base&gt;</code>.</base>
+
+> [!NOTE]<br>This is a one-liner note.<br><base>This is inside `<base>`.</base>
+
+> [!NOTE]<br>This is a one-liner note.<base>This is inside `<base>`.</base>
+
+> [!NOTE]<br><base>This is inside `<base>`.</base>
+
 ## `<body>`
 
 <body>body</body>
