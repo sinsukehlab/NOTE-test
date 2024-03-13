@@ -2513,6 +2513,38 @@ paragraph test
 
 > [!NOTE]<br><base>This is inside `<base>`.</base>
 
+## `<link>`
+
+<link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub" />
+
+<link>link test</link>
+
+> [!NOTE]
+> This is a note.
+> <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub" />
+
+> [!NOTE]
+> <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub" />
+
+> [!NOTE]<br>This is a one-liner note.<br><link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub" />
+
+> [!NOTE]<br>This is a one-liner note.<link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub" />
+
+> [!NOTE]<br><link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub" />
+
+> [!NOTE]
+> This is a note.
+> <link>This is inside <code>&lt;link&gt;</code>.</link>
+
+> [!NOTE]
+> <link>This is inside <code>&lt;link&gt;</code>.</link>
+
+> [!NOTE]<br>This is a one-liner note.<br><link>This is inside `<link>`.</link>
+
+> [!NOTE]<br>This is a one-liner note.<link>This is inside `<link>`.</link>
+
+> [!NOTE]<br><link>This is inside `<link>`.</link>
+
 ## `<body>`
 
 <body>body</body>
