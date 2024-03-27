@@ -2545,6 +2545,16 @@ paragraph test
 
 > [!NOTE]<br><link>This is inside `<link>`.</link>
 
+## `<style>`
+
+<style>
+  p {
+    color: #26b72b;
+  }
+</style>
+
+<p>paragraph</p>
+
 ## `<body>`
 
 <body>body</body>
