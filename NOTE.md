@@ -2545,7 +2545,7 @@ paragraph test
 
 > [!NOTE]<br><link>This is inside `<link>`.</link>
 
-## `<style>`
+## `<style>` (not supported)
 
 <style>
   p {
@@ -2554,6 +2554,91 @@ paragraph test
 </style>
 
 <p>paragraph</p>
+
+### `<style>` in alerts
+
+> [!NOTE]
+> This is a note.
+> <style>This is inside <code>&lt;style&gt;</code>.</style>
+
+> [!NOTE]
+> <style>This is inside <code>&lt;style&gt;</code>.</style>
+
+> [!NOTE]<br>This is a one-liner note.<br><style>This is inside `<style>`.</style>
+
+> [!NOTE]<br>This is a one-liner note.<style>This is inside `<style>`.</style>
+
+> [!NOTE]<br><style>This is inside `<style>`.</style>
+
+> [!NOTE]
+> <style>
+> This is inside <code>&lt;style&gt;</code>.
+> </style>
+
+> [!NOTE]
+> This is a note.
+> <style>
+>   p {
+>     color: red;
+>   }
+> </style>
+> <p>This is a paragraph.</p>
+
+### alerts in `<style>`
+
+<style>
+> [!NOTE]
+> This is a note.
+</style>
+
+<style>
+
+> [!NOTE]
+> This is a note.
+
+</style>
+
+<style>
+> [!NOTE]
+> This is a note.
+> <style>
+> This is inside <code>&lt;style&gt;</code>.
+> </style>
+</style>
+
+<style>
+
+> [!NOTE]
+> This is a note.
+> <style>
+> This is inside <code>&lt;style&gt;</code>.
+> </style>
+
+</style>
+
+<style>
+> [!NOTE]<br>This is a one-liner note.
+</style>
+
+<style>
+
+> [!NOTE]<br>This is a one-liner note.
+
+</style>
+
+<style>> [!NOTE]<br>This is a one-liner note.</style>
+
+<style>
+> [!NOTE]<br>This is a one-liner note.<br><style>This is inside <code>&lt;style&gt;</code>.</style>
+</style>
+
+<style>
+
+> [!NOTE]<br>This is a one-liner note.<br><style>This is inside `<style>`.</style>
+
+</style>
+
+<style>> [!NOTE]<br>This is a one-liner note.<br><style>This is inside <code>&lt;style&gt;</code>.</style></style>
 
 ## `<body>`
 
