@@ -2748,3 +2748,41 @@ body paragraph
 > [!NOTE]<br>This is a one-liner note.<br><p>This is inside `<p>`.</p>
 
 </body>
+
+## `<header>`
+
+<header>header</header>
+
+<header>
+<h1>Page Title</h1>
+<img src="https://github.com/fluidicon.png" alt="GitHub fluid icon" />
+</header>
+
+### `<header>` in alerts
+
+> [!NOTE]
+> This is a note.
+> <header>This is inside <code>&lt;header&gt;</code>.</header>
+
+> [!NOTE]
+> <header>This is inside <code>&lt;header&gt;</code>.</header>
+
+> [!NOTE]<br>This is a one-liner note.<br><header>This is inside `<header>`.</header>
+
+> [!NOTE]<br>This is a one-liner note.<header>This is inside `<header>`.</header>
+
+> [!NOTE]<br><header>This is inside `<header>`.</header>
+
+> [!NOTE]
+> <header>
+> This is inside <code>&lt;header&gt;</code>.
+> </header>
+
+> [!NOTE]
+> <header>
+> <h1>
+> This is inside <code>&lt;header&gt;&lt;p&gt;</code>.
+> </h1>
+> </header>
+
+
