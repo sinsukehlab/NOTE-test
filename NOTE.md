@@ -2754,7 +2754,7 @@ body paragraph
 <header>header</header>
 
 <header>
-<h1>Page Title</h1>
+<h4>Page Title</h4>
 <img src="https://github.com/fluidicon.png" alt="GitHub fluid icon" />
 </header>
 
@@ -2780,9 +2780,80 @@ body paragraph
 
 > [!NOTE]
 > <header>
-> <h1>
-> This is inside <code>&lt;header&gt;&lt;p&gt;</code>.
-> </h1>
+> <h4>
+> This is inside <code>&lt;header&gt;&lt;h4&gt;</code>.
+> </h4>
+> <img src="https://github.com/fluidicon.png" alt="GitHub fluid icon" />
 > </header>
 
+### alerts in `<header>`
 
+<header>
+> [!NOTE]
+> This is a note.
+</header>
+
+<header>
+
+> [!NOTE]
+> This is a note.
+
+</header>
+
+<header>
+> [!NOTE]
+> This is a note.
+> <header>
+> This is inside <code>&lt;header&gt;</code>.
+> </header>
+</header>
+
+<header>
+
+> [!NOTE]
+> This is a note.
+> <header>
+> This is inside <code>&lt;header&gt;</code>.
+> </header>
+
+</header>
+
+<header>
+> [!NOTE]<br>This is a one-liner note.
+</header>
+
+<header>
+
+> [!NOTE]<br>This is a one-liner note.
+
+</header>
+
+<header>> [!NOTE]<br>This is a one-liner note.</header>
+
+<header>
+> [!NOTE]<br>This is a one-liner note.<br><header>This is inside <code>&lt;header&gt;</code>.</header>
+</header>
+
+<header>
+
+> [!NOTE]<br>This is a one-liner note.<br><header>This is inside `<header>`.</header>
+
+</header>
+
+<header>> [!NOTE]<br>This is a one-liner note.<br><header>This is inside <code>&lt;header&gt;</code>.</header></header>
+
+<header>
+
+> [!NOTE]
+> This is a note.
+> <h4>
+> This is inside <code>&lt;h4&gt;</code>.
+> </h4>
+
+</header>
+
+<header>
+
+> [!NOTE]<br>This is a one-liner note.<br><h4>This is inside `<h4>`.</h4>
+
+</header>
