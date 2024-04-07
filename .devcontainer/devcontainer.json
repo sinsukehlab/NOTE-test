@@ -13,7 +13,8 @@
 		"vscode": {
 			"extensions": [
 				"bierner.github-markdown-preview",
-				"GitHub.vscode-github-actions"
+				"GitHub.vscode-github-actions",
+				"yahyabatulu.vscode-markdown-alert"
 			]
 		}
 	}
