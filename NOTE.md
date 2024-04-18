@@ -2857,3 +2857,110 @@ body paragraph
 > [!NOTE]<br>This is a one-liner note.<br><h4>This is inside `<h4>`.</h4>
 
 </header>
+
+## `<footer>`
+
+<footer>footer</footer>
+
+<footer>
+<p>&copy; 2024 sinsukehlab</p>
+</footer>
+
+### `<footer>` in alerts
+
+> [!NOTE]
+> This is a note.
+> <footer>This is inside <code>&lt;footer&gt;</code>.</footer>
+
+> [!NOTE]
+> <footer>This is inside <code>&lt;footer&gt;</code>.</footer>
+
+> [!NOTE]<br>This is a one-liner note.<br><footer>This is inside `<footer>`.</footer>
+
+> [!NOTE]<br>This is a one-liner note.<footer>This is inside `<footer>`.</footer>
+
+> [!NOTE]<br><footer>This is inside `<footer>`.</footer>
+
+> [!NOTE]
+> <footer>
+> This is inside <code>&lt;footer&gt;</code>.
+> </footer>
+
+> [!NOTE]
+> <footer>
+> <p>
+> This is inside <code>&lt;footer&gt;&lt;p&gt;</code>.
+> </p>
+> </footer>
+
+### alerts in `<footer>`
+
+<footer>
+> [!NOTE]
+> This is a note.
+</footer>
+
+<footer>
+
+> [!NOTE]
+> This is a note.
+
+</footer>
+
+<footer>
+> [!NOTE]
+> This is a note.
+> <footer>
+> This is inside <code>&lt;footer&gt;</code>.
+> </footer>
+</footer>
+
+<footer>
+
+> [!NOTE]
+> This is a note.
+> <footer>
+> This is inside <code>&lt;footer&gt;</code>.
+> </footer>
+
+</footer>
+
+<footer>
+> [!NOTE]<br>This is a one-liner note.
+</footer>
+
+<footer>
+
+> [!NOTE]<br>This is a one-liner note.
+
+</footer>
+
+<footer>> [!NOTE]<br>This is a one-liner note.</footer>
+
+<footer>
+> [!NOTE]<br>This is a one-liner note.<br><footer>This is inside <code>&lt;footer&gt;</code>.</footer>
+</footer>
+
+<footer>
+
+> [!NOTE]<br>This is a one-liner note.<br><footer>This is inside `<footer>`.</footer>
+
+</footer>
+
+<footer>> [!NOTE]<br>This is a one-liner note.<br><footer>This is inside <code>&lt;footer&gt;</code>.</footer></footer>
+
+<footer>
+
+> [!NOTE]
+> This is a note.
+> <p>
+> This is inside <code>&lt;p&gt;</code>.
+> </p>
+
+</footer>
+
+<footer>
+
+> [!NOTE]<br>This is a one-liner note.<br><p>This is inside `<p>`.</p>
+
+</footer>
