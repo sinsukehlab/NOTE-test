@@ -358,9 +358,45 @@ Broken since 14 Nov 2023
 > 
 > ***
 
+## `<hr>` (`<hr />`)
+
+> [!NOTE]
+> This is a note.
+> <hr />
+> after the break
+
+> [!NOTE]
+> <hr />
+
 > [!NOTE]<br>This is a one-liner note using `<br>`.<hr />after the break
 
 > [!NOTE]<br><hr />
+
+## ATX headings
+
+> [!NOTE]
+> This is a note.
+> # This is `<h1>` text.
+> ## This is `<h2>` text.
+> ### This is `<h3>` text.
+> #### This is `<h4>` text.
+> ##### This is `<h5>` text.
+> ###### This is `<h6>` text.
+
+## `<h1>`&ndash;`<h6>`
+
+> [!NOTE]
+> This is a note.
+> <h1>This is <code>&lt;h1&gt;</code> text.</h1>
+> <h2>This is <code>&lt;h2&gt;</code> text.</h2>
+> <h3>This is <code>&lt;h3&gt;</code> text.</h3>
+> <h4>This is <code>&lt;h4&gt;</code> text.</h4>
+> <h5>This is <code>&lt;h5&gt;</code> text.</h5>
+> <h6>This is <code>&lt;h6&gt;</code> text.</h6>
+
+> [!NOTE]<br>Thi is a one-liner note.<h1>This is `<h1>` text.</h1><h2>This is `<h2>` text.</h2><h3>This is `<h3>` text.</h3><h4>This is `<h4>` text.</h4><h5>This is `<h5>` text.</h5><h6>This is `<h6>` text.</h6>
+
+> [!NOTE]<br>Thi is a one-liner note.<br><h1>This is `<h1>` text.</h1><br><h2>This is `<h2>` text.</h2><br><h3>This is `<h3>` text.</h3><br><h4>This is `<h4>` text.</h4><br><h5>This is `<h5>` text.</h5><br><h6>This is `<h6>` text.</h6>
 
 ## code block
 
@@ -378,6 +414,12 @@ fn main () {
 }
 ```
 
+~~~
+fn main () {
+  println!("Hello, World!");
+}
+~~~
+
 fenced code block with syntax highlighting
 ```rust
 fn main () {
@@ -385,6 +427,12 @@ fn main () {
 }
 ```
 
+~~~rust
+fn main () {
+  println!("Hello, World!");
+}
+~~~
+
 > [!NOTE]
 > This is a note.
 > 
@@ -409,11 +457,26 @@ fn main () {
 > ```
 
 > [!NOTE]
+> This is a note.
+> ~~~
+> fn main() {
+>   println!("Hello, World!");
+> }
+> ~~~
+
+> [!NOTE]
 > ```
 > fn main() {
 >   println!("Hello, World!");
 > }
 > ```
+
+> [!NOTE]
+> ~~~
+> fn main() {
+>   println!("Hello, World!");
+> }
+> ~~~
 
 > [!NOTE]
 > This is a note.
@@ -424,11 +487,26 @@ fn main () {
 > ```
 
 > [!NOTE]
+> This is a note.
+> ~~~rust
+> fn main() {
+>   println!("Hello, World!");
+> }
+> ~~~
+
+> [!NOTE]
 > ```rust
 > fn main() {
 >   println!("Hello, World!");
 > }
 > ```
+
+> [!NOTE]
+> ~~~rust
+> fn main() {
+>   println!("Hello, World!");
+> }
+> ~~~
 
 ## MathJax (directly supported since 14 Nov 2023)
 
@@ -520,6 +598,17 @@ fn main () {
 > ```math
 > \LaTeX
 > ```
+
+> [!NOTE]
+> This is a note.
+> ~~~math
+> \LaTeX
+> ~~~
+
+> [!NOTE]
+> ~~~math
+> \LaTeX
+> ~~~
 
 ## list
 
