@@ -372,6 +372,8 @@ Broken since 14 Nov 2023
 
 > [!NOTE]<br><hr />
 
+> [!NOTE]<hr />
+
 ## ATX headings
 
 > [!NOTE]
