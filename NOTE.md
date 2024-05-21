@@ -387,6 +387,8 @@ Broken since 14 Nov 2023
 
 ## `<h1>`&ndash;`<h6>`
 
+### `<h1>`&ndash;`<h6>` in alerts
+
 > [!NOTE]
 > This is a note.
 > <h1>This is <code>&lt;h1&gt;</code> text.</h1>
@@ -399,6 +401,210 @@ Broken since 14 Nov 2023
 > [!NOTE]<br>Thi is a one-liner note.<h1>This is `<h1>` text.</h1><h2>This is `<h2>` text.</h2><h3>This is `<h3>` text.</h3><h4>This is `<h4>` text.</h4><h5>This is `<h5>` text.</h5><h6>This is `<h6>` text.</h6>
 
 > [!NOTE]<br>Thi is a one-liner note.<br><h1>This is `<h1>` text.</h1><br><h2>This is `<h2>` text.</h2><br><h3>This is `<h3>` text.</h3><br><h4>This is `<h4>` text.</h4><br><h5>This is `<h5>` text.</h5><br><h6>This is `<h6>` text.</h6>
+
+### alerts in `<h1>`&ndash;`<h6>`
+
+<h1>
+> [!NOTE]
+> This is a note.
+</h1>
+
+<h1>
+
+> [!NOTE]
+> This is a note.
+
+</h1>
+
+<h1>
+> [!NOTE]<br>This is a one-liner note.
+</h1>
+
+<h1>
+
+> [!NOTE]<br>This is a one-liner note.
+
+</h1>
+
+<h1>> [!NOTE]<br>This is a one-liner note.</h1>
+
+<h2>
+> [!NOTE]
+> This is a note.
+</h2>
+
+<h2>
+
+> [!NOTE]
+> This is a note.
+
+</h2>
+
+<h2>
+> [!NOTE]<br>This is a one-liner note.
+</h2>
+
+<h2>
+
+> [!NOTE]<br>This is a one-liner note.
+
+</h2>
+
+<h2>> [!NOTE]<br>This is a one-liner note.</h2>
+
+<h3>
+> [!NOTE]
+> This is a note.
+</h3>
+
+<h3>
+
+> [!NOTE]
+> This is a note.
+
+</h3>
+
+<h3>
+> [!NOTE]<br>This is a one-liner note.
+</h3>
+
+<h3>
+
+> [!NOTE]<br>This is a one-liner note.
+
+</h3>
+
+<h3>> [!NOTE]<br>This is a one-liner note.</h3>
+
+<h4>
+> [!NOTE]
+> This is a note.
+</h4>
+
+<h4>
+
+> [!NOTE]
+> This is a note.
+
+</h4>
+
+<h4>
+> [!NOTE]<br>This is a one-liner note.
+</h4>
+
+<h4>
+
+> [!NOTE]<br>This is a one-liner note.
+
+</h4>
+
+<h4>> [!NOTE]<br>This is a one-liner note.</h4>
+
+<h5>
+> [!NOTE]
+> This is a note.
+</h5>
+
+<h5>
+
+> [!NOTE]
+> This is a note.
+
+</h5>
+
+<h5>
+> [!NOTE]<br>This is a one-liner note.
+</h5>
+
+<h5>
+
+> [!NOTE]<br>This is a one-liner note.
+
+</h5>
+
+<h5>> [!NOTE]<br>This is a one-liner note.</h5>
+
+<h6>
+> [!NOTE]
+> This is a note.
+</h6>
+
+<h6>
+
+> [!NOTE]
+> This is a note.
+
+</h6>
+
+<h6>
+> [!NOTE]<br>This is a one-liner note.
+</h6>
+
+<h6>
+
+> [!NOTE]<br>This is a one-liner note.
+
+</h6>
+
+<h6>> [!NOTE]<br>This is a one-liner note.</h6>
+
+<h4>
+> [!NOTE]
+> This is a note.
+> <h4>
+> This is inside <code>&lt;h4&gt;</code>.
+> </h4>
+</h4>
+
+<h4>
+
+> [!NOTE]
+> This is a note.
+> <h4>
+> This is inside <code>&lt;h4&gt;</code>.
+> </h4>
+
+</h4>
+
+<h4>
+
+> [!NOTE]
+> This is a note.
+> <h5>
+> This is inside <code>&lt;h5&gt;</code>.
+> </h5>
+
+</h4>
+
+<h4>
+> [!NOTE]<br>This is a one-liner note.<br><h4>This is inside <code>&lt;h4&gt;</code>.</h4>
+</h4>
+
+<h4>
+
+> [!NOTE]<br>This is a one-liner note.<br><h4>This is inside `<h4>`.</h4>
+
+</h4>
+
+<h4>
+
+> [!NOTE]<br>This is a one-liner note.<br><h5>This is inside `<h5>`.</h5>
+
+</h4>
+
+<h4>
+
+> [!NOTE]<br>This is a one-liner note.<h4>This is inside `<h4>`.</h4>
+
+</h4>
+
+<h4>
+
+> [!NOTE]<br>This is a one-liner note.<h5>This is inside `<h5>`.</h5>
+
+</h4>
+
+<h4>> [!NOTE]<br>This is a one-liner note.<br><h4>This is inside <code>&lt;h4&gt;</code>.</h4></h4>
 
 ## code block
 
