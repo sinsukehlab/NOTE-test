@@ -360,6 +360,10 @@ Broken since 14 Nov 2023
 
 ## `<hr>` (`<hr />`)
 
+<hr />
+
+<hr>hr test</hr>
+
 > [!NOTE]
 > This is a note.
 > <hr />
@@ -373,6 +377,19 @@ Broken since 14 Nov 2023
 > [!NOTE]<br><hr />
 
 > [!NOTE]<hr />
+
+> [!NOTE]
+> This is a note.
+> <hr>This is inside <code>&lt;hr&gt;</code>.</hr>
+
+> [!NOTE]
+> <hr>This is inside <code>&lt;hr&gt;</code>.</hr>
+
+> [!NOTE]<br>This is a one-liner note.<br><hr>This is inside `<hr>`.</hr>
+
+> [!NOTE]<br>This is a one-liner note.<hr>This is inside `<hr>`.</hr>
+
+> [!NOTE]<br><hr>This is inside `<hr>`.</hr>
 
 ## ATX headings
 
@@ -402,7 +419,7 @@ Broken since 14 Nov 2023
 
 > [!NOTE]<br>Thi is a one-liner note.<br><h1>This is `<h1>` text.</h1><br><h2>This is `<h2>` text.</h2><br><h3>This is `<h3>` text.</h3><br><h4>This is `<h4>` text.</h4><br><h5>This is `<h5>` text.</h5><br><h6>This is `<h6>` text.</h6>
 
-### alerts in `<h1>`&ndash;`<h6>`
+### alerts in `<h1>`&ndash;`<h6>` (not supported)
 
 <h1>
 > [!NOTE]
@@ -547,64 +564,6 @@ Broken since 14 Nov 2023
 </h6>
 
 <h6>> [!NOTE]<br>This is a one-liner note.</h6>
-
-<h4>
-> [!NOTE]
-> This is a note.
-> <h4>
-> This is inside <code>&lt;h4&gt;</code>.
-> </h4>
-</h4>
-
-<h4>
-
-> [!NOTE]
-> This is a note.
-> <h4>
-> This is inside <code>&lt;h4&gt;</code>.
-> </h4>
-
-</h4>
-
-<h4>
-
-> [!NOTE]
-> This is a note.
-> <h5>
-> This is inside <code>&lt;h5&gt;</code>.
-> </h5>
-
-</h4>
-
-<h4>
-> [!NOTE]<br>This is a one-liner note.<br><h4>This is inside <code>&lt;h4&gt;</code>.</h4>
-</h4>
-
-<h4>
-
-> [!NOTE]<br>This is a one-liner note.<br><h4>This is inside `<h4>`.</h4>
-
-</h4>
-
-<h4>
-
-> [!NOTE]<br>This is a one-liner note.<br><h5>This is inside `<h5>`.</h5>
-
-</h4>
-
-<h4>
-
-> [!NOTE]<br>This is a one-liner note.<h4>This is inside `<h4>`.</h4>
-
-</h4>
-
-<h4>
-
-> [!NOTE]<br>This is a one-liner note.<h5>This is inside `<h5>`.</h5>
-
-</h4>
-
-<h4>> [!NOTE]<br>This is a one-liner note.<br><h4>This is inside <code>&lt;h4&gt;</code>.</h4></h4>
 
 ## code block
 
