@@ -37,15 +37,50 @@
 > [!NOTE]
 > 
 
+You can write one-liner alerts using `<br>`.
+
 > [!NOTE]<br>This is a one-liner note.
 
-Broken since 14 Nov 2023
+> [!NOTE]<br />This is a one-liner note.
+
+Broken since 14 Nov 2023: no content after `<br>`
+
 > [!NOTE]<br>
+
+> [!NOTE]<br />
 
 > [!NOTE]<br><br>
 
+> [!NOTE]<br><br />
+
+> [!NOTE]<br /><br>
+
+> [!NOTE]<br /><br />
+
 > [!NOTE]<br>
 > This is a note.
+
+> [!NOTE]<br />
+> This is a note.
+
+<br>br test</br>
+
+> [!NOTE]<br></br>
+
+> [!NOTE]
+> This is a note.
+> <br>This is inside <code>&lt;br&gt;</code>.</br>
+
+> [!NOTE]
+> <br>This is inside <code>&lt;br&gt;</code>.</br>
+
+> [!NOTE]<br>This is a one-liner note.<br><br>This is inside `<br>`.</br>
+
+> [!NOTE]<br>This is a one-liner note.<br>This is inside `<br>`.</br>
+
+> [!NOTE]<br><br>This is inside `<br>`.</br>
+
+> [!NOTE]<br>This is inside `<br>`.</br>
 
 ## nested alerts
 
@@ -378,6 +413,8 @@ Broken since 14 Nov 2023
 
 > [!NOTE]<hr />
 
+> [!NOTE]<hr />after the break
+
 > [!NOTE]
 > This is a note.
 > <hr>This is inside <code>&lt;hr&gt;</code>.</hr>
@@ -390,6 +427,8 @@ Broken since 14 Nov 2023
 > [!NOTE]<br>This is a one-liner note.<hr>This is inside `<hr>`.</hr>
 
 > [!NOTE]<br><hr>This is inside `<hr>`.</hr>
+
+> [!NOTE]<hr>This is inside `<hr>`.</hr>
 
 ## ATX headings
 
@@ -418,6 +457,30 @@ Broken since 14 Nov 2023
 > [!NOTE]<br>Thi is a one-liner note.<h1>This is `<h1>` text.</h1><h2>This is `<h2>` text.</h2><h3>This is `<h3>` text.</h3><h4>This is `<h4>` text.</h4><h5>This is `<h5>` text.</h5><h6>This is `<h6>` text.</h6>
 
 > [!NOTE]<br>Thi is a one-liner note.<br><h1>This is `<h1>` text.</h1><br><h2>This is `<h2>` text.</h2><br><h3>This is `<h3>` text.</h3><br><h4>This is `<h4>` text.</h4><br><h5>This is `<h5>` text.</h5><br><h6>This is `<h6>` text.</h6>
+
+> [!NOTE]<h1>
+
+> [!NOTE]<h1></h1>
+
+> [!NOTE]<h2>
+
+> [!NOTE]<h2></h2>
+
+> [!NOTE]<h3>
+
+> [!NOTE]<h3></h3>
+
+> [!NOTE]<h4>
+
+> [!NOTE]<h4></h4>
+
+> [!NOTE]<h5>
+
+> [!NOTE]<h5></h5>
+
+> [!NOTE]<h6>
+
+> [!NOTE]<h6></h6>
 
 ### alerts in `<h1>`&ndash;`<h6>` (not supported)
 
