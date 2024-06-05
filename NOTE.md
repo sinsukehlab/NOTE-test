@@ -82,7 +82,7 @@ Broken since 14 Nov 2023: no content after `<br>`
 
 > [!NOTE]<br>This is inside `<br>`.</br>
 
-## nested alerts
+## nested alerts (not supported)
 
 > [!NOTE]
 > This is a note.
@@ -627,6 +627,34 @@ Broken since 14 Nov 2023: no content after `<br>`
 </h6>
 
 <h6>> [!NOTE]<br>This is a one-liner note.</h6>
+
+## `<hgroup>`
+
+<hgroup>
+<h4>This is <code>&lt;h4&gt;</code> text.</h4>
+<p>This is <code>&lt;p&gt;</code> text.</p>
+</hgroup>
+
+<hgroup>
+<h4>This is <code>&lt;h4&gt;</code> text.</h4>
+<p>This is <code>&lt;p&gt;</code> text.</p>
+<p>second <code>&lt;p&gt;</code></p>
+</hgroup>
+
+<hgroup>
+<h4>This is <code>&lt;h4&gt;</code> text.</h4>
+</hgroup>
+
+<hgroup>
+<h4>This is <code>&lt;h4&gt;</code> text.</h4>
+<h5>This is <code>&lt;h5&gt;</code> text.</h5>
+</hgroup>
+
+<hgroup>
+<h4>This is <code>&lt;h4&gt;</code> text.</h4>
+<h5>This is <code>&lt;h5&gt;</code> text.</h5>
+<p>This is <code>&lt;p&gt;</code> text.</p>
+</hgroup>
 
 ## code block
 
