@@ -712,6 +712,116 @@ Broken since 14 Nov 2023: no content after `<br>`
 
 > [!NOTE]<hgroup><h4>This is `<h4>` text.</h4><h5>This is `<h5>` text.</h5><p>This is `<p>` text.</p></hgroup>
 
+### alerts in `<hgroup>`
+
+<hgroup>
+> [!NOTE]
+> This is a note.
+</hgroup>
+
+<hgroup>
+
+> [!NOTE]
+> This is a note.
+
+</hgroup>
+
+<hgroup>
+> [!NOTE]<br>This is a one-liner note.
+</hgroup>
+
+<hgroup>
+
+> [!NOTE]<br>This is a one-liner note.
+
+</hgroup>
+
+<hgroup>
+
+> [!NOTE]
+> This is a note.
+> <h4>This is <code>&lt;h4&gt;</code> text.</h4>
+> <p>This is <code>&lt;p&gt;</code> text.</p>
+
+</hgroup>
+
+<hgroup>
+
+> [!NOTE]
+> <h4>This is <code>&lt;h4&gt;</code> text.</h4>
+> <p>This is <code>&lt;p&gt;</code> text.</p>
+
+</hgroup>
+
+<hgroup>
+
+> [!NOTE]
+> <h4>This is <code>&lt;h4&gt;</code> text.</h4>
+> <p>This is <code>&lt;p&gt;</code> text.</p>
+> <p>second <code>&lt;p&gt;</code></p>
+
+</hgroup>
+
+<hgroup>
+
+> [!NOTE]
+> <h4>This is <code>&lt;h4&gt;</code> text.</h4>
+
+</hgroup>
+
+<hgroup>
+
+> [!NOTE]
+> <h4>This is <code>&lt;h4&gt;</code> text.</h4>
+> <h5>This is <code>&lt;h5&gt;</code> text.</h5>
+
+</hgroup>
+
+<hgroup>
+
+> [!NOTE]
+> <h4>This is <code>&lt;h4&gt;</code> text.</h4>
+> <h5>This is <code>&lt;h5&gt;</code> text.</h5>
+> <p>This is <code>&lt;p&gt;</code> text.</p>
+
+</hgroup>
+
+<hgroup>
+
+> [!NOTE]<br>This is a note.<h4>This is `<h4>` text.</h4><p>This is `<p>` text.</p>
+
+</hgroup>
+
+<hgroup>
+
+> [!NOTE]<h4>This is `<h4>` text.</h4><p>This is `<p>` text.</p>
+
+</hgroup>
+
+<hgroup>
+
+> [!NOTE]<h4>This is `<h4>` text.</h4><p>This is `<p>` text.</p><p>second `<p>`</p>
+
+</hgroup>
+
+<hgroup>
+
+> [!NOTE]<h4>This is `<h4>` text.</h4>
+
+</hgroup>
+
+<hgroup>
+
+> [!NOTE]<h4>This is `<h4>` text.</h4><h5>This is `<h5>` text.</h5>
+
+</hgroup>
+
+<hgroup>
+
+> [!NOTE]<h4>This is `<h4>` text.</h4><h5>This is `<h5>` text.</h5><p>This is `<p>` text.</p>
+
+</hgroup>
+
 ## code block
 
 simple indented code block
