@@ -3312,6 +3312,103 @@ body paragraph
 
 </body>
 
+## `<article>`
+
+<article>article</article>
+
+<article>
+main article
+<article>
+child article
+</article>
+</article>
+
+### `<article>` in alerts
+
+> [!NOTE]
+> This is a note.
+> <article>This is inside <code>&lt;article&gt;</code>.</article>
+
+> [!NOTE]
+> <article>This is inside <code>&lt;article&gt;</code>.</article>
+
+> [!NOTE]<br>This is a one-liner note.<br><article>This is inside `<article>`.</article>
+
+> [!NOTE]<br>This is a one-liner note.<article>This is inside `<article>`.</article>
+
+> [!NOTE]<br><article>This is inside `<article>`.</article>
+
+> [!NOTE]
+> <article>
+> This is inside <code>&lt;article&gt;</code>.
+> </article>
+
+> [!NOTE]
+> <article>
+> This is inside <code>&lt;article&gt;</code>.
+> <article>
+> This is inside <code>&lt;article&gt;&lt;article&gt;</code>.
+> </article>
+> </article>
+
+> [!NOTE]<br><article>This is inside `<article>`.<article>This is inside `<article><article>`.</article></article>
+
+### alerts in `<article>`
+
+<article>
+> [!NOTE]
+> This is a note.
+</article>
+
+<article>
+
+> [!NOTE]
+> This is a note.
+
+</article>
+
+<article>
+> [!NOTE]
+> This is a note.
+> <article>
+> This is inside <code>&lt;article&gt;</code>.
+> </article>
+</article>
+
+<article>
+
+> [!NOTE]
+> This is a note.
+> <article>
+> This is inside <code>&lt;article&gt;</code>.
+> </article>
+
+</article>
+
+<article>
+> [!NOTE]<br>This is a one-liner note.
+</article>
+
+<article>
+
+> [!NOTE]<br>This is a one-liner note.
+
+</article>
+
+<article>> [!NOTE]<br>This is a one-liner note.</article>
+
+<article>
+> [!NOTE]<br>This is a one-liner note.<br><article>This is inside <code>&lt;article&gt;</code>.</article>
+</article>
+
+<article>
+
+> [!NOTE]<br>This is a one-liner note.<br><article>This is inside `<article>`.</article>
+
+</article>
+
+<article>> [!NOTE]<br>This is a one-liner note.<br><article>This is inside <code>&lt;article&gt;</code>.</article></article>
+
 ## `<header>`
 
 <header>header</header>
