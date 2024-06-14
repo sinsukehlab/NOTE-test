@@ -1355,6 +1355,30 @@ fn main () {
 ### tables in alerts
 
 > [!NOTE]
+> This is a note.
+> | Header |
+> | --- |
+
+> [!NOTE]
+> | Header |
+> | --- |
+
+> [!NOTE]
+> | Header |
+> | --- |
+> | Content |
+
+> [!NOTE]
+> |a|
+> |-|
+
+> [!NOTE]
+> |-|
+
+> [!NOTE]
+|-|
+
+> [!NOTE]
 > | Header 1 | Header 2 |
 > | --- | --- |
 > | a | b |
@@ -1400,6 +1424,32 @@ fn main () {
 > | > [!NOTE]<br>This is a note. | > [!NOTE]<br>This is a note. | > [!NOTE]<br>This is a note. |
 > | > [!IMPORTANT]<br>This is important. | > [!IMPORTANT]<br>This is important. | > [!IMPORTANT]<br>This is important. |
 > | > [!WARNING]<br>This is a warning. | > [!WARNING]<br>This is a warning. | > [!WARNING]<br>This is a warning. |
+
+### with MathJax
+
+> [!NOTE]
+> | $\LaTeX$ |
+> | --- |
+
+> [!NOTE]
+> | $$\LaTeX$$ |
+> | --- |
+
+> [!NOTE]
+> | Header 1 | Header 2 |
+> | --- | --- |
+> | $\LaTeX$ | $$\LaTeX$$ |
+
+> [!NOTE]
+> | $\LaTeX$ | $$\LaTeX$$ |
+> | --- | --- |
+> | Content 1 | Content 2 |
+
+> [!NOTE]
+> | Left-aligned | Center-aligned | Right-aligned |
+> | :--- | :---: | ---: |
+> | $\LaTeX$ | $\LaTeX$ | $\LaTeX$ |
+> | $$\LaTeX$$ | $$\LaTeX$$ | $$\LaTeX$$ |
 
 ## `<table>`
 
