@@ -3624,3 +3624,110 @@ child article
 > [!NOTE]<br>This is a one-liner note.<br><p>This is inside `<p>`.</p>
 
 </footer>
+
+## `<main>`
+
+<main>main</main>
+
+<main>
+<p>main paragraph</p>
+</main>
+
+### `<main>` in alerts
+
+> [!NOTE]
+> This is a note.
+> <main>This is inside <code>&lt;main&gt;</code>.</main>
+
+> [!NOTE]
+> <main>This is inside <code>&lt;main&gt;</code>.</main>
+
+> [!NOTE]<br>This is a one-liner note.<br><main>This is inside `<main>`.</main>
+
+> [!NOTE]<br>This is a one-liner note.<main>This is inside `<main>`.</main>
+
+> [!NOTE]<br><main>This is inside `<main>`.</main>
+
+> [!NOTE]
+> <main>
+> This is inside <code>&lt;main&gt;</code>.
+> </main>
+
+> [!NOTE]
+> <main>
+> <p>
+> This is inside <code>&lt;main&gt;&lt;p&gt;</code>.
+> </p>
+> </main>
+
+### alerts in `<main>`
+
+<main>
+> [!NOTE]
+> This is a note.
+</main>
+
+<main>
+
+> [!NOTE]
+> This is a note.
+
+</main>
+
+<main>
+> [!NOTE]
+> This is a note.
+> <main>
+> This is inside <code>&lt;main&gt;</code>.
+> </main>
+</main>
+
+<main>
+
+> [!NOTE]
+> This is a note.
+> <main>
+> This is inside <code>&lt;main&gt;</code>.
+> </main>
+
+</main>
+
+<main>
+> [!NOTE]<br>This is a one-liner note.
+</main>
+
+<main>
+
+> [!NOTE]<br>This is a one-liner note.
+
+</main>
+
+<main>> [!NOTE]<br>This is a one-liner note.</main>
+
+<main>
+> [!NOTE]<br>This is a one-liner note.<br><main>This is inside <code>&lt;main&gt;</code>.</main>
+</main>
+
+<main>
+
+> [!NOTE]<br>This is a one-liner note.<br><main>This is inside `<main>`.</main>
+
+</main>
+
+<main>> [!NOTE]<br>This is a one-liner note.<br><main>This is inside <code>&lt;main&gt;</code>.</main></main>
+
+<main>
+
+> [!NOTE]
+> This is a note.
+> <p>
+> This is inside <code>&lt;p&gt;</code>.
+> </p>
+
+</main>
+
+<main>
+
+> [!NOTE]<br>This is a one-liner note.<br><p>This is inside `<p>`.</p>
+
+</main>
