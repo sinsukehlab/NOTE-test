@@ -3312,6 +3312,14 @@ body paragraph
 
 </body>
 
+## `<address>`
+
+<address>address</address>
+
+<address>
+<a href="mailto:CRISPR-Cas@chemist.com">CRISPR-Cas@chemist.com</a>
+</address>
+
 ## `<article>`
 
 <article>article</article>
