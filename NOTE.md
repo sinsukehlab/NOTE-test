@@ -3320,6 +3320,92 @@ body paragraph
 <a href="mailto:CRISPR-Cas@chemist.com">CRISPR-Cas@chemist.com</a>
 </address>
 
+### `<address>` in alerts
+
+> [!NOTE]
+> This is a note.
+> <address>This is inside <code>&lt;address&gt;</code>.</address>
+
+> [!NOTE]
+> <address>This is inside <code>&lt;address&gt;</code>.</address>
+
+> [!NOTE]<br>This is a one-liner note.<br><address>This is inside `<address>`.</address>
+
+> [!NOTE]<br>This is a one-liner note.<address>This is inside `<address>`.</address>
+
+> [!NOTE]<br><address>This is inside `<address>`.</address>
+
+> [!NOTE]
+> <address>
+> This is inside <code>&lt;address&gt;</code>.
+> </address>
+
+> [!NOTE]
+> <address>
+> This is inside <code>&lt;address&gt;</code>.
+> <a>
+> This is inside <code>&lt;address&gt;&lt;a&gt;</code>.
+> </a>
+> </address>
+
+> [!NOTE]<br><address>This is inside `<address>`.<a>This is inside `<address><a>`.</a></address>
+
+### alerts in `<address>`
+
+<address>
+> [!NOTE]
+> This is a note.
+</address>
+
+<address>
+
+> [!NOTE]
+> This is a note.
+
+</address>
+
+<address>
+> [!NOTE]
+> This is a note.
+> <a>
+> This is inside <code>&lt;a&gt;</code>.
+> </a>
+</address>
+
+<address>
+
+> [!NOTE]
+> This is a note.
+> <a>
+> This is inside <code>&lt;a&gt;</code>.
+> </a>
+
+</address>
+
+<address>
+> [!NOTE]<br>This is a one-liner note.
+</address>
+
+<address>
+
+> [!NOTE]<br>This is a one-liner note.
+
+</address>
+
+<address>> [!NOTE]<br>This is a one-liner note.</address>
+
+<address>
+> [!NOTE]<br>This is a one-liner note.<br><a>This is inside <code>&lt;a&gt;</code>.</a>
+</address>
+
+<address>
+
+> [!NOTE]<br>This is a one-liner note.<br><a>This is inside `<a>`.</a>
+
+</address>
+
+<address>> [!NOTE]<br>This is a one-liner note.<br><a>This is inside <code>&lt;a&gt;</code>.</a></address>
+
 ## `<article>`
 
 <article>article</article>
