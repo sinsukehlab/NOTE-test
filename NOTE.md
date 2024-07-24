@@ -3503,6 +3503,18 @@ child article
 
 <article>> [!NOTE]<br>This is a one-liner note.<br><article>This is inside <code>&lt;article&gt;</code>.</article></article>
 
+## `<aside>`
+
+<aside>aside</aside>
+
+<article>
+<p>before</p>
+<aside>
+<p>aside</p>
+</aside>
+<p>after</p>
+</article>
+
 ## `<header>`
 
 <header>header</header>
