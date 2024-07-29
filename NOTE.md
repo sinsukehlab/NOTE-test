@@ -3432,6 +3432,8 @@ child article
 
 > [!NOTE]<br><article>This is inside `<article>`.</article>
 
+> [!NOTE]<article>This is inside `<article>`.</article>
+
 > [!NOTE]
 > <article>
 > This is inside <code>&lt;article&gt;</code>.
@@ -3514,6 +3516,54 @@ child article
 </aside>
 <p>after</p>
 </article>
+
+### `<aside>` in alerts
+
+> [!NOTE]
+> This is a note.
+> <aside>This is inside <code>&lt;aside&gt;</code>.</aside>
+
+> [!NOTE]
+> <aside>This is inside <code>&lt;aside&gt;</code>.</aside>
+
+> [!NOTE]<br>This is a one-liner note.<br><aside>This is inside `<aside>`.</aside>
+
+> [!NOTE]<br>This is a one-liner note.<aside>This is inside `<aside>`.</aside>
+
+> [!NOTE]<br><aside>This is inside `<aside>`.</aside>
+
+> [!NOTE]<aside>This is inside `<aside>`.</aside>
+
+> [!NOTE]
+> <aside>
+> This is inside <code>&lt;aside&gt;</code>.
+> </aside>
+
+> [!NOTE]
+> <aside>
+> <p>
+> This is inside <code>&lt;aside&gt;&lt;p&gt;</code>.
+> </p>
+> </aside>
+
+> [!NOTE]
+> <article>
+> <p>
+> This is inside <code>&lt;article&gt;&lt;p&gt;</code> before.
+> </p>
+> <aside>
+> <p>
+> This is inside <code>&lt;article&gt;&lt;aside&gt;&lt;p&gt;</code>.
+> </p>
+> </aside>
+> <p>
+> This is inside <code>&lt;article&gt;&lt;p&gt;</code> after.
+> </p>
+> </article>
+
+> [!NOTE]<br><aside><p>This is inside `<aside><p>`.</p></aside>
+
+> [!NOTE]<br><article><p>This is inside `<article><p>` before.</p><aside><p>This is inside `<article><aside><p>`.</p></aside><p>This is inside `<article><p>` after.</p></article>
 
 ## `<header>`
 
