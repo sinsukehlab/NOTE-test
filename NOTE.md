@@ -3565,6 +3565,147 @@ child article
 
 > [!NOTE]<br><article><p>This is inside `<article><p>` before.</p><aside><p>This is inside `<article><aside><p>`.</p></aside><p>This is inside `<article><p>` after.</p></article>
 
+### alerts in `<aside>`
+
+<aside>
+> [!NOTE]
+> This is a note.
+</aside>
+
+<aside>
+
+> [!NOTE]
+> This is a note.
+
+</aside>
+
+<aside>
+> [!NOTE]
+> This is a note.
+> <aside>
+> This is inside <code>&lt;aside&gt;</code>.
+> </aside>
+</aside>
+
+<aside>
+
+> [!NOTE]
+> This is a note.
+> <aside>
+> This is inside <code>&lt;aside&gt;</code>.
+> </aside>
+
+</aside>
+
+<aside>
+> [!NOTE]<br>This is a one-liner note.
+</aside>
+
+<aside>
+
+> [!NOTE]<br>This is a one-liner note.
+
+</aside>
+
+<aside>> [!NOTE]<br>This is a one-liner note.</aside>
+
+<aside>
+> [!NOTE]<br>This is a one-liner note.<br><aside>This is inside <code>&lt;aside&gt;</code>.</aside>
+</aside>
+
+<aside>
+
+> [!NOTE]<br>This is a one-liner note.<br><aside>This is inside `<aside>`.</aside>
+
+</aside>
+
+<aside>> [!NOTE]<br>This is a one-liner note.<br><aside>This is inside <code>&lt;aside&gt;</code>.</aside></aside>
+
+<aside>
+
+> [!NOTE]<aside>This is inside `<aside>`.</aside>
+
+</aside>
+
+<article>
+
+> [!NOTE]
+> This is a note.
+> <aside>
+> This is inside <code>&lt;aside&gt;</code>.
+> </aside>
+
+</article>
+
+<article>
+
+> [!NOTE]<br>This is a one-liner note.<br><aside>This is inside `<aside>`.</aside>
+
+</article>
+
+<article>
+
+<p>before</p>
+
+> [!NOTE]
+> This is a note.
+> <aside>
+> <p>
+> This is inside <code>&lt;aside&gt;&lt;p&gt;</code>.
+> </p>
+> </aside>
+
+<p>after</p>
+
+</article>
+
+<article>
+
+<p>before</p>
+
+> [!NOTE]<br>This is a one-liner note.<br><aside><p>This is inside `<aside><p>`.</p></aside>
+
+<p>after</p>
+
+</article>
+
+<article>
+
+<p>before</p>
+
+<aside>
+
+<p>
+
+> [!NOTE]
+> This is a note.
+
+</p>
+
+</aside>
+
+<p>after</p>
+
+</article>
+
+<article>
+
+<p>before</p>
+
+<aside>
+
+<p>
+
+> [!NOTE]<br>This is a one-liner note.
+
+</p>
+
+</aside>
+
+<p>after</p>
+
+</article>
+
 ## `<header>`
 
 <header>header</header>
