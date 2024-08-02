@@ -3706,7 +3706,6 @@ child article
 
 </article>
 
-
 ## `<header>`
 
 <header>header</header>
@@ -4029,3 +4028,21 @@ child article
 > [!NOTE]<br>This is a one-liner note.<br><p>This is inside `<p>`.</p>
 
 </main>
+
+## `<nav>`
+
+<nav class="crumbs">
+<ol>
+<li class="crumb"><a href="#">Home</a></li>
+<li class="crumb"><a href="#">About</a></li>
+<li class="crumb"><a href="#">Contact</a></li>
+</ol>
+</nav>
+
+<nav class="menu">
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">About</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+</nav>
