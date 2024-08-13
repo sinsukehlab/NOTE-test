@@ -4033,9 +4033,9 @@ child article
 
 <nav class="crumbs">
 <ol>
-<li class="crumb"><a href="#">Home</a></li>
-<li class="crumb"><a href="#">About</a></li>
-<li class="crumb"><a href="#">Contact</a></li>
+<li class="crumb"><a href="#">GitHub Flavored Markdown</a></li>
+<li class="crumb"><a href="#">Features</a></li>
+<li class="crumb"><a href="#">Alerts</a></li>
 </ol>
 </nav>
 
