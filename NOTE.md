@@ -4046,3 +4046,7 @@ child article
 <li><a href="#">Contact</a></li>
 </ul>
 </nav>
+
+### `<nav>` in alerts
+
+### alerts in `<nav>`
