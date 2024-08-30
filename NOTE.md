@@ -4077,3 +4077,71 @@ child article
 > </nav>
 
 ### alerts in `<nav>`
+
+<nav>
+> [!NOTE]
+> This is a note.
+</nav>
+
+<nav>
+
+> [!NOTE]
+> This is a note.
+
+</nav>
+
+<nav>
+> [!NOTE]
+> This is a note.
+> <nav>
+> This is inside <code>&lt;nav&gt;</code>.
+> </nav>
+</nav>
+
+<nav>
+
+> [!NOTE]
+> This is a note.
+> <nav>
+> This is inside <code>&lt;nav&gt;</code>.
+> </nav>
+
+</nav>
+
+<nav>
+> [!NOTE]<br>This is a one-liner note.
+</nav>
+
+<nav>
+
+> [!NOTE]<br>This is a one-liner note.
+
+</nav>
+
+<nav>> [!NOTE]<br>This is a one-liner note.</nav>
+
+<nav>
+> [!NOTE]<br>This is a one-liner note.<br><nav>This is inside <code>&lt;nav&gt;</code>.</nav>
+</nav>
+
+<nav>
+
+> [!NOTE]<br>This is a one-liner note.<br><nav>This is inside `<nav>`.</nav>
+
+</nav>
+
+<nav>> [!NOTE]<br>This is a one-liner note.<br><nav>This is inside <code>&lt;nav&gt;</code>.</nav></nav>
+
+<nav>
+
+> [!NOTE]
+> This is a note.
+> <a href="#">This is inside <code>&lt;a&gt;</code>.</a>
+
+</nav>
+
+<nav>
+
+> [!NOTE]<br>This is a one-liner note.<br><a href="#">This is inside `<a>`.</a>
+
+</nav>
