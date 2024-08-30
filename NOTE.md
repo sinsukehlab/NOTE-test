@@ -4031,6 +4031,8 @@ child article
 
 ## `<nav>`
 
+<nav>nav</nav>
+
 <nav class="crumbs">
 <ol>
 <li class="crumb"><a href="#">GitHub Flavored Markdown</a></li>
@@ -4048,5 +4050,30 @@ child article
 </nav>
 
 ### `<nav>` in alerts
+
+> [!NOTE]
+> This is a note.
+> <nav>This is inside <code>&lt;nav&gt;</code>.</nav>
+
+> [!NOTE]
+> <nav>This is inside <code>&lt;nav&gt;</code>.</nav>
+
+> [!NOTE]<br>This is a one-liner note.<br><nav>This is inside `<nav>`.</nav>
+
+> [!NOTE]<br>This is a one-liner note.<nav>This is inside `<nav>`.</nav>
+
+> [!NOTE]<br><nav>This is inside `<nav>`.</nav>
+
+> [!NOTE]
+> <nav>
+> This is inside <code>&lt;nav&gt;</code>.
+> </nav>
+
+> [!NOTE]
+> <nav class="menu">
+> <ul>
+> <li><a href="#">This is inside <code>&lt;nav&gt;&lt;ul&gt;&lt;li&gt;&lt;a&gt;</code></a></li>
+> </ul>
+> </nav>
 
 ### alerts in `<nav>`
