@@ -4049,6 +4049,13 @@ child article
 </ul>
 </nav>
 
+<nav>
+<h4>Navigation</h4>
+<p>
+You are on my home page. Here you can see a <a href="#">contacts page</a>.
+</p>
+</nav>
+
 ### `<nav>` in alerts
 
 > [!NOTE]
