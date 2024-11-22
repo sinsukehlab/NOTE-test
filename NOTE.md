@@ -4153,3 +4153,9 @@ You are on my home page. Here you can see a <a href="#">contacts page</a>.
 
 </nav>
 
+## `<section>`
+
+<section>
+<h4>Heading</h4>
+<p>Content</p>
+</section>
