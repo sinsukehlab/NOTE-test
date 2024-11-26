@@ -630,6 +630,8 @@ Broken since 14 Nov 2023: no content after `<br>`
 
 ## `<hgroup>`
 
+<hgroup>hgroup</hgroup>
+
 <hgroup>
 <h4>This is <code>&lt;h4&gt;</code> text.</h4>
 <p>This is <code>&lt;p&gt;</code> text.</p>
@@ -4079,9 +4081,11 @@ You are on my home page. Here you can see a <a href="#">contacts page</a>.
 > [!NOTE]
 > <nav class="menu">
 > <ul>
-> <li><a href="#">This is inside <code>&lt;nav&gt;&lt;ul&gt;&lt;li&gt;&lt;a&gt;</code></a></li>
+> <li><a href="#">This is inside <code>&lt;nav&gt;&lt;ul&gt;&lt;li&gt;&lt;a&gt;</code>.</a></li>
 > </ul>
 > </nav>
+
+> [!NOTE]<br><nav class="menu"><ul><li><a href="#">This is inside `<nav><ul><li><a>`.</a></li></li></nav>
 
 ### alerts in `<nav>`
 
@@ -4155,7 +4159,37 @@ You are on my home page. Here you can see a <a href="#">contacts page</a>.
 
 ## `<section>`
 
+<section>section</section>
+
 <section>
 <h4>Heading</h4>
 <p>Content</p>
 </section>
+
+### `<section>` in alerts
+
+> [!NOTE]
+> This is a note.
+> <section>This is inside <code>&lt;section&gt;</code>.</section>
+
+> [!NOTE]
+> <section>This is inside <code>&lt;section&gt;</code>.</section>
+
+> [!NOTE]<br>This is a one-liner note.<br><section>This is inside `<section>`.</section>
+
+> [!NOTE]<br>This is a one-liner note.<section>This is inside `<section>`.</section>
+
+> [!NOTE]<br><section>This is inside `<section>`.</section>
+
+> [!NOTE]
+> <section>
+> This is inside <code>&lt;section&gt;</code>.
+> </section>
+
+> [!NOTE]
+> <section>
+> <h4>This is inside <code>&lt;section&gt;&lt;h4&gt;</code>.</h4>
+> <p>This is inside <code>&lt;section&gt;&lt;p&gt;</code>.</p>
+> </section>
+
+> [!NOTE]<br><section><h4>This is inside `<section><h4>`.</h4><p>This is inside `<section><p>`.</p></section>
