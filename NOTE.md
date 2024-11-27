@@ -2738,6 +2738,8 @@ body
 
 > [!NOTE]<br><html>This is inside `<html>`.</html>
 
+> [!NOTE]<html>This is inside `<html>` (broken).</html>
+
 > [!NOTE]
 > <html>
 > This is inside <code>&lt;html&gt;</code>.
@@ -2752,6 +2754,8 @@ body
 > This is inside <code>&lt;html&gt;&lt;body&gt;</code>.
 > </body>
 > </html>
+
+> [!NOTE]<br><html><head>This is inside `<html><head>`.</head><body>This is inside `<html><body>`.</body></html>
 
 ### alerts in `<html>`
 
@@ -2852,6 +2856,8 @@ title
 > [!NOTE]<br>This is a one-liner note.<head>This is inside `<head>`.</head>
 
 > [!NOTE]<br><head>This is inside `<head>`.</head>
+
+> [!NOTE]<head>This is inside `<head>` (broken).</head>
 
 > [!NOTE]
 > <head>
@@ -3033,6 +3039,9 @@ paragraph test
 
 > [!NOTE]<br><meta charset="utf-8" />
 
+broken
+> [!NOTE]<meta charset="utf-8" />
+
 > [!NOTE]
 > This is a note.
 > <meta>This is inside <code>&lt;meta&gt;</code>.</meta>
@@ -3045,6 +3054,8 @@ paragraph test
 > [!NOTE]<br>This is a one-liner note.<meta>This is inside `<meta>`.</meta>
 
 > [!NOTE]<br><meta>This is inside `<meta>`.</meta>
+
+> [!NOTE]<meta>This is inside `<meta>` (broken).</meta>
 
 ## `<base>`
 
@@ -3065,6 +3076,9 @@ paragraph test
 
 > [!NOTE]<br><base href="https://github.com/" />
 
+broken
+> [!NOTE]<base href="https://github.com/" />
+
 > [!NOTE]
 > This is a note.
 > <base>This is inside <code>&lt;base&gt;</code>.</base>
@@ -3077,6 +3091,8 @@ paragraph test
 > [!NOTE]<br>This is a one-liner note.<base>This is inside `<base>`.</base>
 
 > [!NOTE]<br><base>This is inside `<base>`.</base>
+
+> [!NOTE]<base>This is inside `<base>` (broken).</base>
 
 ## `<link>`
 
@@ -3097,6 +3113,9 @@ paragraph test
 
 > [!NOTE]<br><link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub" />
 
+broken
+> [!NOTE]<link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub" />
+
 > [!NOTE]
 > This is a note.
 > <link>This is inside <code>&lt;link&gt;</code>.</link>
@@ -3109,6 +3128,8 @@ paragraph test
 > [!NOTE]<br>This is a one-liner note.<link>This is inside `<link>`.</link>
 
 > [!NOTE]<br><link>This is inside `<link>`.</link>
+
+> [!NOTE]<link>This is inside `<link>` (broken).</link>
 
 ## `<style>` (not supported)
 
@@ -3230,6 +3251,8 @@ body paragraph
 
 > [!NOTE]<br><body>This is inside `<body>`.</body>
 
+> [!NOTE]<body>This is inside `<body>` (broken).</body>
+
 > [!NOTE]
 > <body>
 > This is inside <code>&lt;body&gt;</code>.
@@ -3337,9 +3360,18 @@ body paragraph
 
 > [!NOTE]<br><address>This is inside `<address>`.</address>
 
+> [!NOTE]<address>This is inside `<address>`</address>
+
+> [!NOTE]<address>
+
 > [!NOTE]
 > <address>
 > This is inside <code>&lt;address&gt;</code>.
+> </address>
+
+> [!NOTE]
+> <address>
+> <a href="mailto:CRISPR-Cas@chemist.com">CRISPR-Cas@chemist.com</a>
 > </address>
 
 > [!NOTE]
@@ -3349,6 +3381,8 @@ body paragraph
 > This is inside <code>&lt;address&gt;&lt;a&gt;</code>.
 > </a>
 > </address>
+
+> [!NOTE]<br><address><a href="mailto:CRISPR-Cas@chemist.com">CRISPR-Cas@chemist.com</a></address>
 
 > [!NOTE]<br><address>This is inside `<address>`.<a>This is inside `<address><a>`.</a></address>
 
@@ -3435,6 +3469,8 @@ child article
 > [!NOTE]<br><article>This is inside `<article>`.</article>
 
 > [!NOTE]<article>This is inside `<article>`.</article>
+
+> [!NOTE]<article>
 
 > [!NOTE]
 > <article>
@@ -3535,6 +3571,8 @@ child article
 > [!NOTE]<br><aside>This is inside `<aside>`.</aside>
 
 > [!NOTE]<aside>This is inside `<aside>`.</aside>
+
+> [!NOTE]<aside>
 
 > [!NOTE]
 > <aside>
@@ -3732,6 +3770,10 @@ child article
 
 > [!NOTE]<br><header>This is inside `<header>`.</header>
 
+> [!NOTE]<header>This is inside `<header>`.</header>
+
+> [!NOTE]<header>
+
 > [!NOTE]
 > <header>
 > This is inside <code>&lt;header&gt;</code>.
@@ -3744,6 +3786,8 @@ child article
 > </h4>
 > <img src="https://github.com/fluidicon.png" alt="GitHub fluid icon" />
 > </header>
+
+> [!NOTE]<br><header><h4>This is inside `<header><h4>`.</h4><img src="https://github.com/fluidicon.png" alt="GitHub fluid icon" /></header>
 
 ### alerts in `<header>`
 
@@ -3840,6 +3884,10 @@ child article
 
 > [!NOTE]<br><footer>This is inside `<footer>`.</footer>
 
+> [!NOTE]<footer>This is inside `<footer>`.</footer>
+
+> [!NOTE]<footer>
+
 > [!NOTE]
 > <footer>
 > This is inside <code>&lt;footer&gt;</code>.
@@ -3851,6 +3899,8 @@ child article
 > This is inside <code>&lt;footer&gt;&lt;p&gt;</code>.
 > </p>
 > </footer>
+
+> [!NOTE]<br><footer><p>This is inside `<footer><p>`.</p></footer>
 
 ### alerts in `<footer>`
 
@@ -3946,6 +3996,10 @@ child article
 > [!NOTE]<br>This is a one-liner note.<main>This is inside `<main>`.</main>
 
 > [!NOTE]<br><main>This is inside `<main>`.</main>
+
+> [!NOTE]<main>This is inside `<main>`.</main>
+
+> [!NOTE]<main>
 
 > [!NOTE]
 > <main>
@@ -4073,6 +4127,10 @@ You are on my home page. Here you can see a <a href="#">contacts page</a>.
 
 > [!NOTE]<br><nav>This is inside `<nav>`.</nav>
 
+> [!NOTE]<nav>This is inside `<nav>`.</nav>
+
+> [!NOTE]<nav>
+
 > [!NOTE]
 > <nav>
 > This is inside <code>&lt;nav&gt;</code>.
@@ -4180,6 +4238,10 @@ You are on my home page. Here you can see a <a href="#">contacts page</a>.
 > [!NOTE]<br>This is a one-liner note.<section>This is inside `<section>`.</section>
 
 > [!NOTE]<br><section>This is inside `<section>`.</section>
+
+> [!NOTE]<section>This is inside `<section>`.</section>
+
+> [!NOTE]<section>
 
 > [!NOTE]
 > <section>
