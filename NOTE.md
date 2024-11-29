@@ -2632,6 +2632,12 @@ $$
 
 ## `<div>`
 
+<div>div</div>
+
+<div align="center">
+This is center-aligned.
+</div>
+
 ### `<div>` in alerts
 
 > [!NOTE]
@@ -2653,6 +2659,10 @@ $$
 > [!NOTE]<br>This is a one-liner note.<div align="center">This is inside `<div>`.</div>
 
 > [!NOTE]<br><div align="center">This is inside `<div>`.</div>
+
+> [!NOTE]<div align="center">This is inside `<div>`.</div>
+
+> [!NOTE]<div>
 
 ### alerts in `<div>` (broken since 28 Nov 2023?)
 
