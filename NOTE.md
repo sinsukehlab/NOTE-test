@@ -4265,3 +4265,17 @@ You are on my home page. Here you can see a <a href="#">contacts page</a>.
 > </section>
 
 > [!NOTE]<br><section><h4>This is inside `<section><h4>`.</h4><p>This is inside `<section><p>`.</p></section>
+
+### alerts in `<section>`
+
+<section>
+> [!NOTE]
+> This is a note.
+</section>
+
+<section>
+
+> [!NOTE]
+> This is a note.
+
+</section>
