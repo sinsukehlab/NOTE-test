@@ -4279,3 +4279,60 @@ You are on my home page. Here you can see a <a href="#">contacts page</a>.
 > This is a note.
 
 </section>
+
+<section>
+> [!NOTE]
+> This is a note.
+> <section>
+> This is inside <code>&lt;section&gt;</code>.
+> </section>
+</section>
+
+<section>
+
+> [!NOTE]
+> This is a note.
+> <section>
+> This is inside <code>&lt;section&gt;</code>.
+> </section>
+
+</section>
+
+<section>
+> [!NOTE]<br>This is a one-liner note.
+</section>
+
+<section>
+
+> [!NOTE]<br>This is a one-liner note.
+
+</section>
+
+<section>> [!NOTE]<br>This is a one-liner note.</section>
+
+<section>
+> [!NOTE]<br>This is a one-liner note.<br><section>This is inside <code>&lt;section&gt;</code>.</section>
+</section>
+
+<section>
+
+> [!NOTE]<br>This is a one-liner note.<br><section>This is inside `<section>`.</section>
+
+</section>
+
+<section>> [!NOTE]<br>This is a one-liner note.<br><section>This is inside <code>&lt;section&gt;</code>.</section></section>
+
+<section>
+
+> [!NOTE]
+> This is a note.
+> <h4>This is inside <code>&lt;h4&gt;</code>.</h4>
+> <p>This is inside <code>&lt;p&gt;</code>.</p>
+
+</section>
+
+<section>
+
+> [!NOTE]<br>This is a one-liner note.<br><h4>This is inside `<h4>`.</h4><br><p>This is inside `<p>`.</p>
+
+</section>
