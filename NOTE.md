@@ -4336,3 +4336,7 @@ You are on my home page. Here you can see a <a href="#">contacts page</a>.
 > [!NOTE]<br>This is a one-liner note.<br><h4>This is inside `<h4>`.</h4><br><p>This is inside `<p>`.</p>
 
 </section>
+
+## `<search>`
+
+<search>search</search>
