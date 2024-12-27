@@ -4340,3 +4340,21 @@ You are on my home page. Here you can see a <a href="#">contacts page</a>.
 ## `<search>`
 
 <search>search</search>
+
+<search>
+<label>
+Search
+<input type="search" id="query" />
+</label>
+<label>
+<input type="checkbox" id="exact-only" />
+Exact matches only
+</label>
+<section>
+<h4>Results:</h4>
+<ul id="results">
+</ul>
+<output id="no-results">
+</output>
+</section>
+</search>
