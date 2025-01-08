@@ -4358,3 +4358,20 @@ Exact matches only
 </output>
 </section>
 </search>
+
+### `<search>` in alerts
+
+> [!NOTE]
+> This is a note.
+> <search>This is inside <code>&lt;search&gt;</code>.</search>
+
+> [!NOTE]
+> <search>This is inside <code>&lt;search&gt;</code>.</search>
+
+> [!NOTE]<br>This is a one-liner note.<br><search>This is inside `<search>`.</search>
+
+> [!NOTE]<br>This is a one-liner note.<search>This is inside `<search>`.</search>
+
+> [!NOTE]<br><search>This is inside `<search>`.</search>
+
+> [!NOTE]<search>This is inside `<search>`.</search>
