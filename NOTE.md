@@ -4344,6 +4344,14 @@ You are on my home page. Here you can see a <a href="#">contacts page</a>.
 <search>search</search>
 
 <search>
+<form action="./search/">
+<label for="movie">Find a movie</label>
+<input type="search" id="movie" name="q" />
+<button type="submit">Search</button>
+</form>
+</search>
+
+<search>
 <label>
 Search
 <input type="search" id="query" />
@@ -4385,6 +4393,20 @@ Exact matches only
 
 > [!NOTE]
 > <search>
+> <form action="./search/">
+> <label for="movie">
+> This is inside <code>&lt;search&gt;&lt;form&gt;&lt;label&gt;</code>.
+> Find a movie
+> </label>
+> <input type="search" id="movie" name="q" />
+> <button type="submit">Search</button>
+> </form>
+> </search>
+
+> [!NOTE]<br><search><form action="./search/"><label for="movie">This is inside `<search><form><label>`.<br>Find a movie</label><input type="search" id="movie" name="q" /><button type="submit">Search</button></form></search>
+
+> [!NOTE]
+> <search>
 > <label>
 > This is inside <code>&lt;search&gt;&lt;label&gt;</code>.
 > Search
@@ -4403,7 +4425,7 @@ Exact matches only
 > </section>
 > </search>
 
-> [!NOTE]<br><search><label>This is inside `<search><label>`.<br>Search<input type="search" id="query" /></label><br><label><input type="checkbox" id="exact-only" />Exact matches only</label><section><h4>Results:</h4><ul id="results"></ul><output id="no-results"></output></section></search>
+> [!NOTE]<br><search><label>This is inside `<search><label>`.<br>Search<input type="search" id="query" /></label><label><input type="checkbox" id="exact-only" />Exact matches only</label><section><h4>Results:</h4><ul id="results"></ul><output id="no-results"></output></section></search>
 
 ### alerts in `<search>`
 
@@ -4485,6 +4507,26 @@ Exact matches only
 
 <search>
 
-> [!NOTE]<br><label>This is inside `<label>`.<br>Search<input type="search" id="query" /></label><br><label><input type="checkbox" id="exact-only" />Exact matches only</label><section><h4>Results:</h4><ul id="results"></ul><output id="no-results"></output></section>
+> [!NOTE]<br><label>This is inside `<label>`.<br>Search<input type="search" id="query" /></label><label><input type="checkbox" id="exact-only" />Exact matches only</label><section><h4>Results:</h4><ul id="results"></ul><output id="no-results"></output></section>
+
+</search>
+
+<search>
+
+> [!NOTE]
+> <form action="./search/">
+> <label for="movie">
+> This is inside <code>&lt;form&gt;&lt;label&gt;</code>.
+> Find a movie
+> </label>
+> <input type="search" id="movie" name="q" />
+> <button type="submit">Search</button>
+> </form>
+
+</search>
+
+<search>
+
+> [!NOTE]<br><form action="./search/"><label for="movie">This is inside `<form><label>`.<br>Find a movie</label><input type="search" id="movie" name="q" /><button type="submit">Search</button></form>
 
 </search>
