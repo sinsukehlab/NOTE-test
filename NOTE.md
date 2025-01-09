@@ -3143,6 +3143,8 @@ broken
 
 ## `<style>` (not supported)
 
+<style>style</style>
+
 <style>
   p {
     color: #26b72b;
@@ -4374,4 +4376,115 @@ Exact matches only
 
 > [!NOTE]<br><search>This is inside `<search>`.</search>
 
-> [!NOTE]<search>This is inside `<search>`.</search>
+> [!NOTE]<search>This is inside `<search>` (broken).</search>
+
+> [!NOTE]
+> <search>
+> This is inside <code>&lt;search&gt;</code>.
+> </search>
+
+> [!NOTE]
+> <search>
+> <label>
+> This is inside <code>&lt;search&gt;&lt;label&gt;</code>.
+> Search
+> <input type="search" id="query" />
+> </label>
+> <label>
+> <input type="checkbox" id="exact-only" />
+> Exact matches only
+> </label>
+> <section>
+> <h4>Results:</h4>
+> <ul id="results">
+> </ul>
+> <output id="no-results">
+> </output>
+> </section>
+> </search>
+
+> [!NOTE]<br><search><label>This is inside `<search><label>`.<br>Search<input type="search" id="query" /></label><br><label><input type="checkbox" id="exact-only" />Exact matches only</label><section><h4>Results:</h4><ul id="results"></ul><output id="no-results"></output></section></search>
+
+### alerts in `<search>`
+
+<search>
+> [!NOTE]
+> This is a note.
+</search>
+
+<search>
+
+> [!NOTE]
+> This is a note.
+
+</search>
+
+<search>
+> [!NOTE]
+> This is a note.
+> <search>
+> This is inside <code>&lt;search&gt;</code>.
+> </search>
+</search>
+
+<search>
+
+> [!NOTE]
+> This is a note.
+> <search>
+> This is inside <code>&lt;search&gt;</code>.
+> </search>
+
+</search>
+
+<search>
+> [!NOTE]<br>This is a one-liner note.
+</search>
+
+<search>
+
+> [!NOTE]<br>This is a one-liner note.
+
+</search>
+
+<search>> [!NOTE]<br>This is a one-liner note.</search>
+
+<search>
+> [!NOTE]<br>This is a one-liner note.<br><search>This is inside <code>&lt;search&gt;</code>.</search>
+</search>
+
+<search>
+
+> [!NOTE]<br>This is a one-liner note.<br><search>This is inside `<search>`.</search>
+
+</search>
+
+<search>> [!NOTE]<br>This is a one-liner note.<br><search>This is inside <code>&lt;search&gt;</code>.</search></search>
+
+<search>
+
+> [!NOTE]
+> <label>
+> This is inside <code>&lt;label&gt;</code>.
+> Search
+> <input type="search" id="query" />
+> </label>
+> <label>
+> <input type="checkbox" id="exact-only" />
+> Exact matches only
+> </label>
+> <section>
+> <h4>Results:</h4>
+> <ul id="results">
+> </ul>
+> <output id="no-results">
+> </output>
+> </section>
+
+</search>
+
+<search>
+
+> [!NOTE]<br><label>This is inside `<label>`.<br>Search<input type="search" id="query" /></label><br><label><input type="checkbox" id="exact-only" />Exact matches only</label><section><h4>Results:</h4><ul id="results"></ul><output id="no-results"></output></section>
+
+</search>
