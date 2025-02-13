@@ -4539,3 +4539,4 @@ Exact matches only
 This is a paragraph.
 </p>
 
+### `<p>` in alerts
