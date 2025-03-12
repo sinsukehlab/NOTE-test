@@ -4541,7 +4541,9 @@ This is a paragraph.
 
 ### `<p>` in alerts
 
-
+> [!NOTE]
+> This is a note.
+> <p>This is inside <code>&lt;p&gt;</code>.</p>
 
 ### alerts in `<p>`
 
