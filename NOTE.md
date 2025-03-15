@@ -4545,6 +4545,9 @@ This is a paragraph.
 > This is a note.
 > <p>This is inside <code>&lt;p&gt;</code>.</p>
 
+> [!NOTE]
+> <p>This is inside <code>&lt;p&gt;</code>.</p>
+
 ### alerts in `<p>`
 
 
