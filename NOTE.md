@@ -4548,8 +4548,18 @@ This is a paragraph.
 > [!NOTE]
 > <p>This is inside <code>&lt;p&gt;</code>.</p>
 
+> [!NOTE]<br>This is a one-liner note.<br><p>This is inside `<p>`.</p>
 
+> [!NOTE]<br>This is a one-liner note.<p>This is inside `<p>`.</p>
 
+> [!NOTE]<br><p>This is inside `<p>`.</p>
+
+> [!NOTE]<p>This is inside `<p>`.</p>
+
+> [!NOTE]
+> <p>
+> This is inside <code>&lt;p&gt;</code>.
+> </p>
 
 ### alerts in `<p>`
 
