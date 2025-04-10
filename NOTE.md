@@ -4563,4 +4563,14 @@ This is a paragraph.
 
 ### alerts in `<p>`
 
+<p>
+> [!NOTE]
+> This is a note.
+</p>
 
+<p>
+
+> [!NOTE]
+> This is a note.
+
+</p>
