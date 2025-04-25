@@ -4577,3 +4577,12 @@ This is a paragraph.
 
 </p>
 
+<p>
+> [!NOTE]<br>This is a one-liner note.
+</p>
+
+<p>
+
+> [!NOTE]<br>This is a one-liner note.
+
+</p>
