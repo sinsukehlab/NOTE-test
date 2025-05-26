@@ -4578,6 +4578,24 @@ This is a paragraph.
 </p>
 
 <p>
+> [!NOTE]
+> This is a note.
+> <p>
+> This is inside <code>&lt;p&gt;</code>.
+> </p>
+</p>
+
+<p>
+
+> [!NOTE]
+> This is a note.
+> <p>
+> This is inside <code>&lt;p&gt;</code>.
+> </p>
+
+</p>
+
+<p>
 > [!NOTE]<br>This is a one-liner note.
 </p>
 
@@ -4587,5 +4605,16 @@ This is a paragraph.
 
 </p>
 
+<p>> [!NOTE]<br>This is a one-liner note.</p>
 
+<p>
+> [!NOTE]<br>This is a one-liner note.<br><p>This is inside <code>&lt;p&gt;</code>.</p>
+</p>
 
+<p>
+
+> [!NOTE]<br>This is a one-liner note.<br><p>This is inside `<p>`.</p>
+
+</p>
+
+<p>> [!NOTE]<br>This is a one-liner note.<br><p>This is inside <code>&lt;p&gt;</code>.</p></p>
