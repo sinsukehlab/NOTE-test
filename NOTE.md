@@ -284,6 +284,8 @@ Broken since 14 Nov 2023: no content after `<br>`
 > > [!NOTE]
 > > > This is a quote (`> > > `).
 
+## `<blockquote>`
+
 ## thematic break and setext heading
 
 > [!NOTE]
