@@ -286,6 +286,8 @@ Broken since 14 Nov 2023: no content after `<br>`
 
 ## `<blockquote>`
 
+### `<blockquote>` in alerts
+
 ## thematic break and setext heading
 
 > [!NOTE]
