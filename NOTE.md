@@ -286,6 +286,14 @@ Broken since 14 Nov 2023: no content after `<br>`
 
 ## `<blockquote>`
 
+<blockquote>blockquote</blockquote>
+
+<blockquote cite="https://daringfireball.net/projects/markdown/">
+<p>
+The overriding design goal for Markdown’s formatting syntax is to make it as readable as possible. The idea is that a Markdown-formatted document should be publishable as-is, as plain text, without looking like it’s been marked up with tags or formatting instructions.
+</p>
+</blockquote>
+
 ### `<blockquote>` in alerts
 
 
