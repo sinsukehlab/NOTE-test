@@ -15,7 +15,9 @@
 				"bierner.github-markdown-preview",
 				"GitHub.vscode-github-actions",
 				"yahyabatulu.vscode-markdown-alert",
-				"GitHub.vscode-codeql"
+				"GitHub.vscode-codeql",
+				"GitHub.copilot",
+				"GitHub.copilot-chat"
 			]
 		}
 	}
